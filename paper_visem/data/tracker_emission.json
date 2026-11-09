@@ -1,0 +1,150 @@
+{
+  "1": {
+    "82": {
+      "ours": {
+        "tracks": 100,
+        "rows": 41560
+      },
+      "bytetrack-default": {
+        "tracks": 84,
+        "rows": 41876
+      },
+      "botsort-default": {
+        "tracks": 84,
+        "rows": 41879
+      },
+      "ocsort-default": {
+        "tracks": 97,
+        "rows": 43206
+      }
+    },
+    "60": {
+      "ours": {
+        "tracks": 87,
+        "rows": 15686
+      },
+      "bytetrack-default": {
+        "tracks": 72,
+        "rows": 15352
+      },
+      "botsort-default": {
+        "tracks": 72,
+        "rows": 15419
+      },
+      "ocsort-default": {
+        "tracks": 71,
+        "rows": 15310
+      }
+    },
+    "54": {
+      "ours": {
+        "tracks": 265,
+        "rows": 39336
+      },
+      "bytetrack-default": {
+        "tracks": 199,
+        "rows": 38623
+      },
+      "botsort-default": {
+        "tracks": 197,
+        "rows": 38636
+      },
+      "ocsort-default": {
+        "tracks": 214,
+        "rows": 41436
+      }
+    },
+    "52": {
+      "ours": {
+        "tracks": 57,
+        "rows": 15350
+      },
+      "bytetrack-default": {
+        "tracks": 55,
+        "rows": 15205
+      },
+      "botsort-default": {
+        "tracks": 56,
+        "rows": 15204
+      },
+      "ocsort-default": {
+        "tracks": 76,
+        "rows": 15685
+      }
+    }
+  },
+  "4": {
+    "82": {
+      "ours": {
+        "tracks": 187,
+        "rows": 9882
+      },
+      "bytetrack-default": {
+        "tracks": 23,
+        "rows": 3930
+      },
+      "botsort-default": {
+        "tracks": 23,
+        "rows": 3931
+      },
+      "ocsort-default": {
+        "tracks": 26,
+        "rows": 26
+      }
+    },
+    "60": {
+      "ours": {
+        "tracks": 216,
+        "rows": 3427
+      },
+      "bytetrack-default": {
+        "tracks": 11,
+        "rows": 903
+      },
+      "botsort-default": {
+        "tracks": 11,
+        "rows": 903
+      },
+      "ocsort-default": {
+        "tracks": 13,
+        "rows": 13
+      }
+    },
+    "54": {
+      "ours": {
+        "tracks": 474,
+        "rows": 8932
+      },
+      "bytetrack-default": {
+        "tracks": 15,
+        "rows": 2077
+      },
+      "botsort-default": {
+        "tracks": 15,
+        "rows": 2077
+      },
+      "ocsort-default": {
+        "tracks": 28,
+        "rows": 28
+      }
+    },
+    "52": {
+      "ours": {
+        "tracks": 81,
+        "rows": 3544
+      },
+      "bytetrack-default": {
+        "tracks": 7,
+        "rows": 426
+      },
+      "botsort-default": {
+        "tracks": 7,
+        "rows": 426
+      },
+      "ocsort-default": {
+        "tracks": 9,
+        "rows": 9
+      }
+    }
+  }
+}

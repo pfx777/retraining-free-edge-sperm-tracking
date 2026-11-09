@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying manuscript."
+title: "Retraining-Free Test-Time Scale Adaptation for Quantized Sperm Detection and Tracking on Edge Devices"
+authors:
+  - family-names: Li
+    given-names: Yan
+  - family-names: Pang
+    given-names: Fanxiang
+  - family-names: Gu
+    given-names: Ya
+  - family-names: Zhu
+    given-names: Yanfei
+  - family-names: Li
+    given-names: Chuanjiang
+year: 2026
+type: article

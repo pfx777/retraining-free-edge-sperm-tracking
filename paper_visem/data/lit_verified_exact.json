@@ -1,0 +1,36 @@
+[
+  {
+    "title": "Squeeze-and-Excitation Networks",
+    "authors": [
+      "Jie Hu",
+      "Li Shen",
+      "Gang Sun"
+    ],
+    "year": 2018,
+    "venue": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "doi": "10.1109/cvpr.2018.00745",
+    "type": "proceedings-article",
+    "source": "crossref",
+    "key": "senet",
+    "score": 1.0,
+    "query_title": "Squeeze-and-Excitation Networks"
+  },
+  {
+    "title": "EPSANet: An Efficient Pyramid Squeeze Attention Block on Convolutional Neural Network",
+    "authors": [
+      "Hu Zhang",
+      "Keke Zu",
+      "Jian Lu",
+      "Yuru Zou",
+      "Deyu Meng"
+    ],
+    "year": 2023,
+    "venue": "Lecture Notes in Computer Science",
+    "doi": "10.1007/978-3-031-26313-2_33",
+    "type": "book-chapter",
+    "source": "crossref",
+    "key": "psablock",
+    "score": 1.0,
+    "query_title": "EPSANet: An Efficient Pyramid Squeeze Attention Block on Convolutional Neural Network"
+  }
+]

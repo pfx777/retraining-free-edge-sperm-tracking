@@ -1,0 +1,807 @@
+{
+  "_sources": {
+    "draft": "D:/code/PAPER_DRAFT.md (v1.0)",
+    "registry": "D:/code/SUPP_EXPERIMENTS.md",
+    "log": "D:/code/VISEM_TASK.md",
+    "board_verified_2026_09_24": "board INT8 dumps + trk4_82.tgz rescored in this session (score_trk_dump.py / board_trk_replay.py / board_eval_scales.py)"
+  },
+  "protocol": {
+    "sessions_unseen": [
+      "82",
+      "60",
+      "54",
+      "52"
+    ],
+    "frames_per_session": {
+      "82": 1500,
+      "60": 1470,
+      "54": 1470,
+      "52": 1440
+    },
+    "checkpoint": "last.pt (fixed policy for every arm and seed)",
+    "seed_band_unseen4": 0.017,
+    "seed_swing_train16": 0.149
+  },
+  "main_table_k1": {
+    "lambda0.5": {
+      "baseline": 0.4648,
+      "e26_seeds": {
+        "42": 0.5704,
+        "7": 0.5205,
+        "123": 0.5062,
+        "2024": 0.5189
+      },
+      "e26_gains": {
+        "42": 0.1056,
+        "7": 0.0557,
+        "123": 0.0414,
+        "2024": 0.0541
+      },
+      "gain_mean": 0.0642,
+      "gain_min": 0.0414,
+      "gain_max": 0.1056
+    },
+    "four_clue_deployed": {
+      "baseline": 0.4595,
+      "e26_seeds": {
+        "42": 0.6236,
+        "7": 0.5838,
+        "123": 0.5512,
+        "2024": 0.59
+      },
+      "e26_gains": {
+        "42": 0.1641,
+        "7": 0.1243,
+        "123": 0.0917,
+        "2024": 0.1305
+      },
+      "gain_mean": 0.1277,
+      "gain_min": 0.0917,
+      "gain_max": 0.1641
+    },
+    "dynamic_lambda": {
+      "baseline": 0.5398,
+      "e26_seed42": 0.6098,
+      "gain_seed42": 0.07,
+      "e26_seed_mean": 0.5539,
+      "gain_seed_mean": 0.014,
+      "seeds_positive": "2/4"
+    },
+    "no_calibration_s1": {
+      "baseline": 0.1627,
+      "e26_seeds": {
+        "42": 0.3543,
+        "7": 0.2548,
+        "123": 0.2778,
+        "2024": 0.327
+      },
+      "gain_mean": 0.1408,
+      "gain_min": 0.0921,
+      "gain_max": 0.1916
+    },
+    "lambda1.0": {
+      "baseline": 0.5652,
+      "e26_gains": [
+        0.0455,
+        -0.0185,
+        -0.0166,
+        -0.044
+      ],
+      "gain_mean": -0.0084
+    },
+    "oracle_per_segment": {
+      "baseline": 0.6093,
+      "e26": 0.6497,
+      "gain": 0.0403
+    },
+    "train16_l3": {
+      "baseline": 0.7919,
+      "e26_seeds": {
+        "42": 0.8851,
+        "7": 0.8789,
+        "123": 0.8816,
+        "2024": 0.8848
+      },
+      "gain_mean": 0.0906
+    },
+    "generation_order_of_mechanism": {
+      "no_calibration": 0.1408,
+      "four_clue": 0.1277,
+      "lambda0.5": 0.0642,
+      "lambda1.0": -0.0084,
+      "oracle": 0.0028
+    }
+  },
+  "stride": {
+    "fps": {
+      "1": 13.2,
+      "2": 28.7,
+      "3": 40.4,
+      "4": 50.6
+    },
+    "host_dynamic_lambda": {
+      "baseline": [
+        0.5398,
+        0.5291,
+        0.5218,
+        0.5082
+      ],
+      "e26_seed42": [
+        0.6098,
+        0.6123,
+        0.5923,
+        0.5831
+      ]
+    },
+    "host_lambda0.5": {
+      "baseline": [
+        0.4648,
+        0.4571,
+        0.4533,
+        0.4442
+      ],
+      "e26": [
+        0.5704,
+        0.5712,
+        0.559,
+        0.5497
+      ]
+    },
+    "board_int8_output_scale": {
+      "baseline": [
+        0.5258,
+        0.5131,
+        0.5015,
+        0.4936
+      ],
+      "e35": [
+        0.6126,
+        0.5995,
+        0.5851,
+        0.5655
+      ],
+      "delta": [
+        0.0868,
+        0.0864,
+        0.0836,
+        0.0719
+      ]
+    }
+  },
+  "position_ablation_k1_lambda0.5": {
+    "baseline": {
+      "main": 0.4648,
+      "deployed": 0.4595,
+      "oracle": 0.6093,
+      "s1": 0.1627,
+      "train16": 0.7919
+    },
+    "P3": {
+      "main": 0.5704,
+      "delta": 0.1056,
+      "deployed": 0.6236,
+      "oracle": 0.6497,
+      "s1": 0.3543,
+      "train16": 0.8851
+    },
+    "P3P4": {
+      "main": 0.5749,
+      "delta": 0.1102,
+      "deployed": 0.6069,
+      "oracle": 0.5851,
+      "s1": 0.4573,
+      "train16": 0.8779
+    },
+    "P5": {
+      "main": 0.4841,
+      "delta": 0.0193,
+      "deployed": 0.4962,
+      "oracle": 0.6031,
+      "s1": 0.1888,
+      "train16": 0.8798
+    },
+    "cv2_0": {
+      "main": 0.4812,
+      "delta": 0.0165,
+      "deployed": 0.5244,
+      "oracle": 0.587,
+      "s1": 0.1915,
+      "train16": 0.8808
+    }
+  },
+  "lambda_sweep_baseline": {
+    "lambda": [
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "train16_cost": [
+      -0.0023,
+      -0.0099,
+      -0.0414,
+      -0.2572
+    ],
+    "unseen4_gain": [
+      0.1805,
+      0.2591,
+      0.3738,
+      0.39
+    ]
+  },
+  "dynamic_lambda": {
+    "train16_cost": -0.0097,
+    "unseen4_gain": 0.2501,
+    "fixed_lambda0.5": {
+      "train16_cost": -0.0094,
+      "unseen4_gain": 0.207
+    },
+    "lambda1.0": {
+      "train16_cost": -0.3066,
+      "unseen4_gain": 0.2569
+    },
+    "per_session_lambda": {
+      "82": 0.69,
+      "60": 0.78,
+      "54": 1.0,
+      "52": 0.78
+    },
+    "per_session_scale": {
+      "82": 0.95,
+      "60": 1.07,
+      "54": 1.38,
+      "52": 1.08
+    },
+    "q90_ref_mean": 0.896,
+    "q90_ref_sd": 0.039,
+    "q90_ref_range": [
+      0.864,
+      0.93
+    ],
+    "q90_unseen": {
+      "82": 0.838,
+      "60": 0.808,
+      "54": 0.732,
+      "52": 0.808
+    },
+    "required_scale_unseen": {
+      "82": 0.856,
+      "60": 1.255,
+      "54": 1.391,
+      "52": 0.977
+    },
+    "corr_q90_required_unseen": -0.85
+  },
+  "signal_study": {
+    "q90": 0.6098,
+    "q99": 0.6058,
+    "frac_gt_0.6": 0.5924,
+    "mean": 0.5906,
+    "q50": 0.5906,
+    "frac_gt_0.3": 0.5779,
+    "reference_fixed_lambda0.5": 0.5614,
+    "reference_lambda1.0": 0.6123,
+    "reference_no_calibration": 0.3543
+  },
+  "kappa": {
+    "fits": [
+      3.066,
+      3.162,
+      3.183
+    ],
+    "held_out_8_sessions": "recovers 46% of the oracle gain"
+  },
+  "precision_offset": {
+    "matched_box_ratios": [
+      0.9243,
+      0.9319,
+      0.9351
+    ],
+    "r": 0.9304,
+    "correction": 1.075,
+    "q90_fp32_train": [
+      0.915,
+      0.757,
+      0.913
+    ],
+    "q90_int8_train": [
+      0.914,
+      0.754,
+      0.914
+    ]
+  },
+  "fn_attribution": {
+    "k1_baseline": {
+      "FN": 21753,
+      "FP": 20083
+    },
+    "k1_gctx": {
+      "FN": 18455,
+      "FP": 19602
+    },
+    "k4_baseline": {
+      "FN": 21871,
+      "FP": 20425
+    },
+    "k4_gctx": {
+      "FN": 18335,
+      "FP": 20152
+    }
+  },
+  "oracle_perdetection_size": {
+    "baseline": 0.5704,
+    "with_gt_sizes": 0.727,
+    "gain": 0.1565
+  },
+  "board_int8_full_length": {
+    "scales_dynamic": {
+      "82": 1.02,
+      "60": 1.15,
+      "54": 1.48,
+      "52": 1.16
+    },
+    "e35_input_scale_rule": {
+      "per_session": [
+        0.7269,
+        0.6121,
+        0.6013,
+        0.514
+      ],
+      "mean": 0.6136
+    },
+    "e35_board_semantics": {
+      "per_session": [
+        0.7255,
+        0.6168,
+        0.5968,
+        0.5113
+      ],
+      "mean": 0.6126
+    },
+    "e35_static_lambda0.5": {
+      "scales": [
+        1.02,
+        1.13,
+        1.29,
+        1.13
+      ],
+      "mean": 0.5873
+    },
+    "e35_fp32_rule_transfer": {
+      "scales": [
+        0.95,
+        1.05,
+        1.2,
+        1.05
+      ],
+      "mean": 0.5219
+    },
+    "per_session_oracle_ceiling": {
+      "per_session": [
+        0.7717,
+        0.7124,
+        0.603,
+        0.5866
+      ],
+      "mean": 0.6684
+    },
+    "baseline_own_four_clue": {
+      "scales": [
+        0.8,
+        1.1,
+        1.25,
+        0.95
+      ],
+      "per_session": [
+        0.6415,
+        0.5781,
+        0.5123,
+        0.3951
+      ],
+      "mean": 0.5318
+    },
+    "baseline_same_scales": {
+      "per_session": [
+        0.6347,
+        0.5967,
+        0.6157,
+        0.2641
+      ],
+      "mean": 0.5278
+    }
+  },
+  "delivery_verification": {
+    "detection_rows_pruned_vs_unpruned": {
+      "82": [
+        54076,
+        54076
+      ],
+      "60": [
+        20950,
+        20950
+      ],
+      "54": [
+        71903,
+        71903
+      ],
+      "52": [
+        23915,
+        23915
+      ]
+    },
+    "max_abs_diff": 0.0,
+    "tracker_dump_stride1_200frames": {
+      "files": 200,
+      "nonempty": 200
+    },
+    "tracker_dump_stride4_82_200frames": {
+      "files": 200,
+      "nonempty": 50,
+      "frames": "1,5,...,197",
+      "mota": 0.7301,
+      "predicted_before_board_run": 0.7301,
+      "confusion_counts": {
+        "TP": 4602,
+        "FP": 579,
+        "FN": 886,
+        "IDSW": 16
+      },
+      "host_replay_counts_identical": true,
+      "detection_runs": 48,
+      "timed_frames": 195
+    }
+  },
+  "latency": {
+    "ms": {
+      "baseline": {
+        "npu": 32.7,
+        "full": 62.5,
+        "outputs": 3
+      },
+      "e26": {
+        "npu": 38.975,
+        "full": 75.674,
+        "outputs": 3
+      },
+      "e35": {
+        "npu": 30.874,
+        "full": 62.838,
+        "outputs": 1
+      }
+    },
+    "pruning": {
+      "params": [
+        3017139,
+        1616433
+      ],
+      "gflops_448": [
+        4.05,
+        3.04
+      ],
+      "onnx_mb": [
+        12.1,
+        6.5
+      ]
+    },
+    "width_scan": {
+      "w20_params_pct": -29,
+      "w20_latency_pct": -1.9,
+      "w30_latency_pct": 38,
+      "w35_latency_pct": 50
+    },
+    "other_family_nop2448_ms": 68.0,
+    "head_share_of_npu": 0.44
+  },
+  "tracker_comparison": {
+    "_protocol": "same board INT8 detections (E35 pruned dump), same frames, same k, same per-session output box scale, one MOTA implementation (class-0 GT, IoU>=0.5, gaps<=14 interpolated)",
+    "_implementations": {
+      "ours": "Tracker class sliced out of rknn_headraw_pipeline.py (the one shipped on the board)",
+      "bytetrack": "ultralytics/trackers/byte_tracker.py (canonical port)",
+      "botsort": "ultralytics/trackers/bot_sort.py",
+      "ocsort": "noahcao/OC_SORT official repo (MIT)"
+    },
+    "k1_mean_mota": {
+      "ours": 0.6126,
+      "bytetrack_default": 0.6232,
+      "bytetrack_matched_to_ours": 0.6117,
+      "botsort_default": 0.6261,
+      "botsort_matched_to_ours": 0.6135,
+      "ocsort_default": 0.5951,
+      "ocsort_minhits1": 0.556
+    },
+    "k1_per_session": {
+      "ours": [
+        0.7255,
+        0.6168,
+        0.5968,
+        0.5113
+      ],
+      "bytetrack_default": [
+        0.7355,
+        0.6099,
+        0.6267,
+        0.5199
+      ],
+      "botsort_default": [
+        0.7362,
+        0.6165,
+        0.6305,
+        0.5205
+      ],
+      "ocsort_default": [
+        0.7259,
+        0.6126,
+        0.5466,
+        0.4927
+      ]
+    },
+    "k4_mean_mota": {
+      "ours": 0.5655,
+      "bytetrack_default": 0.1621,
+      "bytetrack_matched_to_ours": 0.1358,
+      "botsort_default": 0.1625,
+      "botsort_matched_to_ours": 0.1364,
+      "ocsort_default": 0.0004,
+      "ocsort_minhits1": 0.5084,
+      "bytetrack_gapaware_narrow_patch": 0.1514,
+      "botsort_gapaware_narrow_patch": 0.152,
+      "bytetrack_unconfirmed_kept_4sess": 0.5662,
+      "botsort_unconfirmed_kept_4sess": 0.5696
+    },
+    "k1_tracks_emitted": {
+      "ours": [
+        100,
+        87,
+        265,
+        57
+      ],
+      "bytetrack_default": [
+        84,
+        72,
+        199,
+        55
+      ],
+      "botsort_default": [
+        84,
+        72,
+        197,
+        56
+      ],
+      "ocsort_default": [
+        97,
+        71,
+        214,
+        76
+      ]
+    },
+    "k4_tracks_emitted": {
+      "ours": [
+        187,
+        216,
+        474,
+        81
+      ],
+      "bytetrack_default": [
+        23,
+        11,
+        15,
+        7
+      ],
+      "botsort_default": [
+        23,
+        11,
+        15,
+        7
+      ],
+      "ocsort_default": [
+        26,
+        13,
+        28,
+        9
+      ]
+    },
+    "two_by_two_detector_x_tracker_k1": {
+      "_design": "baseline stock YOLOv8n vs delivered E35, each with four trackers, k=1, board INT8",
+      "baseline_det": {
+        "ours": 0.5206,
+        "bytetrack": 0.5185,
+        "botsort": 0.5207,
+        "ocsort": 0.5157
+      },
+      "e35_det": {
+        "ours": 0.6126,
+        "bytetrack": 0.6232,
+        "botsort": 0.6261,
+        "ocsort": 0.5951
+      },
+      "delta_e35_minus_baseline": {
+        "ours": 0.092,
+        "bytetrack": 0.1047,
+        "botsort": 0.1054,
+        "ocsort": 0.0793
+      }
+    },
+    "findings": [
+      "At k=1 all four implementations sit in a 0.556-0.626 band; ours 0.6126 is mid-band and BoT-SORT-default (0.6261) is the best. The shipped tracker is competitive but not superior.",
+      "The model-side gain is tracker-independent: with ByteTrack/BoT-SORT/OC-SORT the same E35 detector gains +0.079..+0.105, equal to or larger than with our own tracker (+0.092).",
+      "At k=4 the published defaults degrade sharply: ByteTrack 0.1621, BoT-SORT 0.1625, OC-SORT-default 0.0004 (four-session means), versus ours 0.5655 and OC-SORT with min_hits=1 0.5084.",
+      "Emitted-track counts explain it: at k=4 ByteTrack/BoT-SORT emit 7-23 tracks (ours 187-474) and OC-SORT-default reports only on just-updated frames. Their confirmation policy assumes a detection on essentially every frame.",
+      "Frame-level diagnosis (data/tracker_k4_diagnosis.json) localises the failure: the signature is tiny FP (11-1218) with huge FN - the tracker stops creating tracks (session 60: 11 tracks over the whole 1470-frame video, only 1-5 activated tracks mid-video, FN 15758 of ~19403 GT, FP 11 -> MOTA 0.187). Cause: the published code deletes unconfirmed (newborn) tracks on any call where they are not matched, and under k=4 a newborn's second observation arrives 4 frames later while its zero-velocity Kalman prediction barely moves, so the IoU gate necessarily fails.",
+      "Scope of the fix matters: skipping the deletion only on detection-free frames is too narrow (0.1514/0.1520); patching the unconfirmed step itself (never declare a newborn unmatched, 5 lines) restores ByteTrack to 0.5662 and BoT-SORT to 0.5696 (four-session means) - on par with our 0.5655. So the boundary is a specific confirmation policy in the published implementations, not an inherent limitation of strided tracking."
+    ],
+    "k4_diagnosis_patched_unconfirmed": {
+      "82": {
+        "bytetrack_patched": 0.6672,
+        "botsort_patched": 0.6718,
+        "ours": 0.6869,
+        "bytetrack_default": 0.3097,
+        "TP_default": 14555,
+        "TP_patched": 33315,
+        "tracks_default": 23,
+        "tracks_patched": 110
+      },
+      "60": {
+        "bytetrack_patched": 0.5209,
+        "botsort_patched": 0.5274,
+        "ours": 0.5264,
+        "bytetrack_default": 0.1872,
+        "TP_default": 3645,
+        "TP_patched": 11655,
+        "tracks_default": 11,
+        "tracks_patched": 128
+      }
+    },
+    "calibration_x_tracker_k1": {
+      "_design": "same board INT8 detections of the delivered model, same frames, fresh tracker per session; only the per-session output box scale (the label-free calibration) is switched",
+      "no_calibration": {
+        "ours": 0.2293,
+        "bytetrack": 0.2498,
+        "botsort": 0.2497,
+        "ocsort": 0.2092
+      },
+      "fp32_rule_transfer": {
+        "ours": 0.5204,
+        "bytetrack": 0.5357,
+        "botsort": 0.5349,
+        "ocsort": 0.5053
+      },
+      "deployed_dynamic": {
+        "ours": 0.6126,
+        "bytetrack": 0.6232,
+        "botsort": 0.6261,
+        "ocsort": 0.5951
+      },
+      "delta_deployed_minus_none": {
+        "ours": 0.3833,
+        "bytetrack": 0.3734,
+        "botsort": 0.3764,
+        "ocsort": 0.3859
+      },
+      "k4_delta": {
+        "ours": 0.338,
+        "bytetrack": 0.0609,
+        "botsort": 0.0611,
+        "ocsort": 0.0001
+      },
+      "finding": "At k=1 the calibration gain is tracker-independent (+0.373..+0.386 for four trackers) and is the largest single effect in the pipeline, far larger than the model change (+0.079..+0.105). At k=4 the third-party trackers cannot express it because their confirmation policy stops producing tracks."
+    }
+  },
+  "board_int8_k1_output_semantics": {
+    "_why": "the earlier board block mixed two scoring semantics: 0.6126 was measured with the board's real rule (the per-session scale multiplies the reported boxes only), while the stored static-lambda0.5 value 0.5873 and the baseline 0.5318 were measured with the scale applied to the detections before the tracker. This block re-measures every cell in the board's own semantics so that the main table is internally comparable.",
+    "_command": "python board_eval_scales.py --dump-root .tmp/{pruned_4sess|base_4sess} --scales <per-session> --scale-mode output --stride 1",
+    "_dumps": {
+      "ours": ".tmp/pruned_4sess (delivered E35, board INT8)",
+      "baseline": ".tmp/base_4sess (stock YOLOv8n, board INT8)"
+    },
+    "protocol": "class-0 GT, IoU>=0.5, gaps<=14 interpolated, k=1, full length, same tracker",
+    "lambda0.5": {
+      "scales": [
+        1.02,
+        1.13,
+        1.29,
+        1.13
+      ],
+      "baseline_per_session": [
+        0.6349,
+        0.5824,
+        0.5439,
+        0.3165
+      ],
+      "baseline_mean": 0.5194,
+      "ours_per_session": [
+        0.7255,
+        0.5931,
+        0.4883,
+        0.533
+      ],
+      "ours_mean": 0.585,
+      "delta": 0.0656
+    },
+    "dynamic_lambda": {
+      "scales_ours": [
+        1.02,
+        1.15,
+        1.48,
+        1.16
+      ],
+      "scales_baseline_own": [
+        1.02,
+        1.15,
+        1.46,
+        1.15
+      ],
+      "ours_per_session": [
+        0.7255,
+        0.6168,
+        0.5968,
+        0.5113
+      ],
+      "ours_mean": 0.6126,
+      "baseline_per_session": [
+        0.6349,
+        0.5877,
+        0.5956,
+        0.2828
+      ],
+      "baseline_mean": 0.5253,
+      "delta": 0.0873
+    },
+    "legacy_four_clue_crosscheck": {
+      "scales": [
+        0.8,
+        1.1,
+        1.25,
+        0.95
+      ],
+      "baseline_mean": 0.5258,
+      "ours_mean": 0.5319,
+      "_note": "the legacy rule was calibrated for the previous board implementation; it is kept only as a cross-check and is not used for deployment"
+    }
+  },
+  "stock_family_same_protocol": {
+    "_why": "the five stock family arms (same recipe: 448 / 30 epochs / seed 42, stock topology and stock Detect) scored with the SAME label-free kappa-rule protocol and the same tracker used for table 4, so their numbers are comparable to the YOLOv5 / SpermDet rows. An earlier cross-family table used a different, supervised 5% calibration protocol and is not comparable.",
+    "_pipeline": "dump_family_mot.py (server, last.pt, imgsz 448, conf 0.02, iou 0.5) -> scripts/official_compare.py --val-dets --train-dets (kappa refit on the 16 training sessions)",
+    "detectors": {
+      "stock_yolov8n_448": {
+        "params": 3011043,
+        "kappa_fitted": 3.036,
+        "mean_mota_none": 0.1605,
+        "mean_mota_lambda05": 0.4337,
+        "mean_mota_lambda10": 0.5532,
+        "mean_mota_oracle": 0.6152
+      },
+      "stock_yolov10n_448": {
+        "params": 2707430,
+        "kappa_fitted": 2.857,
+        "mean_mota_none": 0.2528,
+        "mean_mota_lambda05": 0.4385,
+        "mean_mota_lambda10": 0.4993,
+        "mean_mota_oracle": 0.5768
+      },
+      "stock_yolo11n_448": {
+        "params": 2590035,
+        "kappa_fitted": 2.982,
+        "mean_mota_none": 0.2488,
+        "mean_mota_lambda05": 0.4884,
+        "mean_mota_lambda10": 0.5693,
+        "mean_mota_oracle": 0.6326
+      },
+      "stock_yolo12n_448": {
+        "params": 2568243,
+        "kappa_fitted": 2.928,
+        "mean_mota_none": 0.307,
+        "mean_mota_lambda05": 0.4828,
+        "mean_mota_lambda10": 0.5438,
+        "mean_mota_oracle": 0.6121
+      },
+      "stock_yolo26n_448": {
+        "params": 2504190,
+        "kappa_fitted": 2.929,
+        "mean_mota_none": 0.2887,
+        "mean_mota_lambda05": 0.4933,
+        "mean_mota_lambda10": 0.5609,
+        "mean_mota_oracle": 0.6243
+      }
+    }
+  }
+}

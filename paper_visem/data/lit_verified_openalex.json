@@ -1,0 +1,166 @@
+[
+  {
+    "key": "tent",
+    "score": 1.0,
+    "title": "Tent: Fully Test-time Adaptation by Entropy Minimization",
+    "authors": [
+      "Dequan Wang",
+      "Evan Shelhamer",
+      "Shaoteng Liu",
+      "Bruno A. Olshausen",
+      "Trevor J. Darrell"
+    ],
+    "year": 2020,
+    "venue": "arXiv (Cornell University)",
+    "doi": "10.48550/arxiv.2006.10726",
+    "type": "preprint",
+    "source": "openalex",
+    "abstract": "A model must adapt itself to generalize to new and different data during testing. In this setting of fully test-time adaptation the model has only the test data and its own parameters. We propose to adapt by test entropy minimization (tent): we optimize the model for confidence as measured by the entropy of its predictions. Our method estimates normalization statistics and optimizes channel-wise affine transformations to update online on each batch. Tent reduces generalization error for image classification on corrupted ImageNet and CIFAR-10/100 and reaches a new state-of-the-art error on ImageNet-C. Tent handles source-free domain adaptation on digit recognition from SVHN to MNIST/MNIST-M/USPS, on semantic segmentation from GTA to Cityscapes, and on the VisDA-C benchmark. These results are achieved in one epoch of test-time optimization without altering training."
+  },
+  {
+    "key": "bn_adapt",
+    "score": 1.0,
+    "title": "Improving robustness against common corruptions by covariate shift adaptation",
+    "authors": [
+      "Steffen Schneider",
+      "Evgenia Rusak",
+      "Luisa Eck",
+      "Oliver Bringmann",
+      "Wieland Brendel",
+      "Matthias Bethge"
+    ],
+    "year": 2020,
+    "venue": "arXiv (Cornell University)",
+    "doi": "10.48550/arxiv.2006.16971",
+    "type": "preprint",
+    "source": "openalex",
+    "abstract": "Today's state-of-the-art machine vision models are vulnerable to image corruptions like blurring or compression artefacts, limiting their performance in many real-world applications. We here argue that popular benchmarks to measure model robustness against common corruptions (like ImageNet-C) underestimate model robustness in many (but not all) application scenarios. The key insight is that in many scenarios, multiple unlabeled examples of the corruptions are available and can be used for unsupervised online adaptation. Replacing the activation statistics estimated by batch normalization on the training set with the statistics of the corrupted images consistently improves the robustness across 25 different popular computer vision models. Using the corrected statistics, ResNet-50 reaches 62.2% mCE on ImageNet-C compared to 76.7% without adaptation. With the more robust DeepAugment+AugMix model, we improve the state of the art achieved by a ResNet50 model up to date from 53.6% mCE to 45.4% mCE. Even adapting to a single sample improves robustness for the ResNet-50 and AugMix models, and 32 samples are sufficient to improve the current state of the art for a ResNet-50 architecture. We"
+  },
+  {
+    "key": "guo_calibration",
+    "score": 1.0,
+    "title": "On Calibration of Modern Neural Networks",
+    "authors": [
+      "Chuan Jun Guo",
+      "Geoff Pleiss",
+      "Yu Sun",
+      "Kilian Q. Weinberger"
+    ],
+    "year": 2017,
+    "venue": "arXiv (Cornell University)",
+    "doi": "10.48550/arxiv.1706.04599",
+    "type": "preprint",
+    "source": "openalex",
+    "abstract": "Confidence calibration -- the problem of predicting probability estimates representative of the true correctness likelihood -- is important for classification models in many applications. We discover that modern neural networks, unlike those from a decade ago, are poorly calibrated. Through extensive experiments, we observe that depth, width, weight decay, and Batch Normalization are important factors influencing calibration. We evaluate the performance of various post-processing calibration methods on state-of-the-art architectures with image and document classification datasets. Our analysis and experiments not only offer insights into neural network learning, but also provide a simple and straightforward recipe for practical settings: on most datasets, temperature scaling -- a single-parameter variant of Platt Scaling -- is surprisingly effective at calibrating predictions."
+  },
+  {
+    "key": "cbam",
+    "score": 1.0,
+    "title": "CBAM: Convolutional Block Attention Module",
+    "authors": [
+      "Sanghyun Woo",
+      "Jongchan Park",
+      "Joon‐Young Lee",
+      "In So Kweon"
+    ],
+    "year": 2018,
+    "venue": "Lecture notes in computer science",
+    "doi": "10.1007/978-3-030-01234-2_1",
+    "type": "conference-paper",
+    "source": "openalex",
+    "abstract": ""
+  },
+  {
+    "key": "han_prune",
+    "score": 1.0,
+    "title": "Learning both Weights and Connections for Efficient Neural Networks",
+    "authors": [
+      "Song Han",
+      "Jeff Pool",
+      "John J. Tran",
+      "William J. Dally"
+    ],
+    "year": 2015,
+    "venue": "arXiv (Cornell University)",
+    "doi": "10.48550/arxiv.1506.02626",
+    "type": "preprint",
+    "source": "openalex",
+    "abstract": "Neural networks are both computationally intensive and memory intensive, making them difficult to deploy on embedded systems. Also, conventional networks fix the architecture before training starts; as a result, training cannot improve the architecture. To address these limitations, we describe a method to reduce the storage and computation required by neural networks by an order of magnitude without affecting their accuracy by learning only the important connections. Our method prunes redundant connections using a three-step method. First, we train the network to learn which connections are important. Next, we prune the unimportant connections. Finally, we retrain the network to fine tune the weights of the remaining connections. On the ImageNet dataset, our method reduced the number of parameters of AlexNet by a factor of 9x, from 61 million to 6.7 million, without incurring accuracy loss. Similar experiments with VGG-16 found that the number of parameters can be reduced by 13x, from 138 million to 10.3 million, again with no loss of accuracy."
+  },
+  {
+    "key": "yolov4",
+    "score": 1.0,
+    "title": "YOLOv4: Optimal Speed and Accuracy of Object Detection",
+    "authors": [
+      "Alexey Bochkovskiy",
+      "Chien-Yao Wang",
+      "Hong-Yuan Mark Liao"
+    ],
+    "year": 2020,
+    "venue": "arXiv (Cornell University)",
+    "doi": "10.48550/arxiv.2004.10934",
+    "type": "preprint",
+    "source": "openalex",
+    "abstract": "There are a huge number of features which are said to improve Convolutional Neural Network (CNN) accuracy. Practical testing of combinations of such features on large datasets, and theoretical justification of the result, is required. Some features operate on certain models exclusively and for certain problems exclusively, or only for small-scale datasets; while some features, such as batch-normalization and residual-connections, are applicable to the majority of models, tasks, and datasets. We assume that such universal features include Weighted-Residual-Connections (WRC), Cross-Stage-Partial-connections (CSP), Cross mini-Batch Normalization (CmBN), Self-adversarial-training (SAT) and Mish-activation. We use new features: WRC, CSP, CmBN, SAT, Mish activation, Mosaic data augmentation, CmBN, DropBlock regularization, and CIoU loss, and combine some of them to achieve state-of-the-art results: 43.5% AP (65.7% AP50) for the MS COCO dataset at a realtime speed of ~65 FPS on Tesla V100. Source code is at https://github.com/AlexeyAB/darknet"
+  },
+  {
+    "key": "dfl",
+    "score": 1.0,
+    "title": "Generalized Focal Loss: Learning Qualified and Distributed Bounding Boxes for Dense Object Detection",
+    "authors": [
+      "Xiang Li",
+      "Wenhai Wang",
+      "Lijun Wu",
+      "Shuo Chen",
+      "Xiaolin Hu",
+      "Jun Li",
+      "Jinhui Tang",
+      "Jian Jun Yang"
+    ],
+    "year": 2020,
+    "venue": "arXiv (Cornell University)",
+    "doi": "10.48550/arxiv.2006.04388",
+    "type": "preprint",
+    "source": "openalex",
+    "abstract": "One-stage detector basically formulates object detection as dense classification and localization. The classification is usually optimized by Focal Loss and the box location is commonly learned under Dirac delta distribution. A recent trend for one-stage detectors is to introduce an individual prediction branch to estimate the quality of localization, where the predicted quality facilitates the classification to improve detection performance. This paper delves into the representations of the above three fundamental elements: quality estimation, classification and localization. Two problems are discovered in existing practices, including (1) the inconsistent usage of the quality estimation and classification between training and inference and (2) the inflexible Dirac delta distribution for localization when there is ambiguity and uncertainty in complex scenes. To address the problems, we design new representations for these elements. Specifically, we merge the quality estimation into the class prediction vector to form a joint representation of localization quality and classification, and use a vector to represent arbitrary distribution of box locations. The improved representations"
+  },
+  {
+    "key": "bytetrack",
+    "score": 1.0,
+    "title": "ByteTrack: Multi-object Tracking by Associating Every Detection Box",
+    "authors": [
+      "Yifu Zhang",
+      "Peize Sun",
+      "Yi Jiang",
+      "Dongdong Yu",
+      "Fucheng Weng",
+      "Zehuan Yuan",
+      "Ping Luo",
+      "Wenyu Liu"
+    ],
+    "year": 2022,
+    "venue": "Lecture notes in computer science",
+    "doi": "10.1007/978-3-031-20047-2_1",
+    "type": "conference-paper",
+    "source": "openalex",
+    "abstract": ""
+  },
+  {
+    "key": "ocsort",
+    "score": 1.0,
+    "title": "Observation-Centric SORT: Rethinking SORT for Robust Multi-Object Tracking",
+    "authors": [
+      "Jinkun Cao",
+      "Jiangmiao Pang",
+      "Xinshuo Weng",
+      "Rawal Khirodkar",
+      "Kris Kitani"
+    ],
+    "year": 2023,
+    "venue": "",
+    "doi": "10.1109/cvpr52729.2023.00934",
+    "type": "conference-paper",
+    "source": "openalex",
+    "abstract": "Kalman filter (KF) based methods for multi-object tracking (MOT) make an assumption that objects move linearly. While this assumption is acceptable for very short periods of occlusion, linear estimates of motion for prolonged time can be highly inaccurate. Moreover, when there is no measurement available to update Kalman filter parameters, the standard convention is to trust the priori state estimations for posteriori update. This leads to the accumulation of errors during a period of occlusion. The error causes significant motion direction variance in practice. In this work, we show that a basic Kalman filter can still obtain state-of-the-art tracking performance if proper care is taken to fix the noise accumulated during occlusion. Instead of relying only on the linear state estimate (i.e., estimation-centric approach), we use object observations (i.e., the measurements by object detector) to compute a virtual trajectory over the occlusion period to fix the error accumulation of filter parameters. This allows more time steps to correct errors accumulated during occlusion. We name our method Observation-Centric SORT (OC-SORT). It remains Simple, Online, and Real-Time but improves "
+  }
+]

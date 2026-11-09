@@ -1,0 +1,784 @@
+{
+  "4": {
+    "82": {
+      "ours": {
+        "mota": 0.6869411737383591,
+        "TP": 34493,
+        "FP": 4789,
+        "FN": 8566,
+        "IDSW": 125,
+        "GT": 43059,
+        "tracks": 187
+      },
+      "bytetrack-default": {
+        "mota": 0.3097145776724959,
+        "TP": 14555,
+        "FP": 1218,
+        "FN": 28504,
+        "IDSW": 1,
+        "GT": 43059,
+        "tracks": 23,
+        "state": {
+          "calls": 1500,
+          "det_calls": 375,
+          "max_tracked": 31,
+          "max_activated": 23,
+          "max_unconfirmed": 30,
+          "final_tracked": 0,
+          "final_activated": 0,
+          "out_rows": 3930,
+          "first_call": {
+            "frame_call": 1,
+            "n_dets": 30,
+            "tracked": 23,
+            "activated": 23,
+            "unconfirmed": 0,
+            "lost": 0,
+            "out": 23
+          },
+          "second_det_call": {
+            "frame_call": 5,
+            "n_dets": 29,
+            "tracked": 24,
+            "activated": 23,
+            "unconfirmed": 1,
+            "lost": 0,
+            "out": 23
+          },
+          "sample_mid": {
+            "frame_call": 749,
+            "n_dets": 27,
+            "tracked": 20,
+            "activated": 15,
+            "unconfirmed": 5,
+            "lost": 0,
+            "out": 15
+          }
+        }
+      },
+      "bytetrack-keep-unconfirmed": {
+        "mota": 0.6672472653800599,
+        "TP": 33315,
+        "FP": 4538,
+        "FN": 9744,
+        "IDSW": 46,
+        "GT": 43059,
+        "tracks": 110,
+        "state": {
+          "calls": 1500,
+          "det_calls": 375,
+          "max_tracked": 71,
+          "max_activated": 33,
+          "max_unconfirmed": 43,
+          "final_tracked": 42,
+          "final_activated": 0,
+          "out_rows": 9415,
+          "first_call": {
+            "frame_call": 1,
+            "n_dets": 30,
+            "tracked": 23,
+            "activated": 23,
+            "unconfirmed": 0,
+            "lost": 0,
+            "out": 23
+          },
+          "second_det_call": {
+            "frame_call": 5,
+            "n_dets": 29,
+            "tracked": 24,
+            "activated": 23,
+            "unconfirmed": 1,
+            "lost": 0,
+            "out": 23
+          },
+          "sample_mid": {
+            "frame_call": 749,
+            "n_dets": 27,
+            "tracked": 35,
+            "activated": 21,
+            "unconfirmed": 14,
+            "lost": 0,
+            "out": 21
+          }
+        }
+      },
+      "botsort-default": {
+        "mota": 0.3099468171578532,
+        "TP": 14562,
+        "FP": 1215,
+        "FN": 28497,
+        "IDSW": 1,
+        "GT": 43059,
+        "tracks": 23,
+        "state": {
+          "calls": 1500,
+          "det_calls": 375,
+          "max_tracked": 31,
+          "max_activated": 23,
+          "max_unconfirmed": 30,
+          "final_tracked": 0,
+          "final_activated": 0,
+          "out_rows": 3931,
+          "first_call": {
+            "frame_call": 1,
+            "n_dets": 30,
+            "tracked": 23,
+            "activated": 23,
+            "unconfirmed": 0,
+            "lost": 0,
+            "out": 23
+          },
+          "second_det_call": {
+            "frame_call": 5,
+            "n_dets": 29,
+            "tracked": 24,
+            "activated": 23,
+            "unconfirmed": 1,
+            "lost": 0,
+            "out": 23
+          },
+          "sample_mid": {
+            "frame_call": 749,
+            "n_dets": 27,
+            "tracked": 20,
+            "activated": 15,
+            "unconfirmed": 5,
+            "lost": 0,
+            "out": 15
+          }
+        }
+      },
+      "botsort-keep-unconfirmed": {
+        "mota": 0.6717527113959916,
+        "TP": 33414,
+        "FP": 4443,
+        "FN": 9645,
+        "IDSW": 46,
+        "GT": 43059,
+        "tracks": 110,
+        "state": {
+          "calls": 1500,
+          "det_calls": 375,
+          "max_tracked": 71,
+          "max_activated": 33,
+          "max_unconfirmed": 43,
+          "final_tracked": 42,
+          "final_activated": 0,
+          "out_rows": 9416,
+          "first_call": {
+            "frame_call": 1,
+            "n_dets": 30,
+            "tracked": 23,
+            "activated": 23,
+            "unconfirmed": 0,
+            "lost": 0,
+            "out": 23
+          },
+          "second_det_call": {
+            "frame_call": 5,
+            "n_dets": 29,
+            "tracked": 24,
+            "activated": 23,
+            "unconfirmed": 1,
+            "lost": 0,
+            "out": 23
+          },
+          "sample_mid": {
+            "frame_call": 749,
+            "n_dets": 27,
+            "tracked": 35,
+            "activated": 21,
+            "unconfirmed": 14,
+            "lost": 0,
+            "out": 21
+          }
+        }
+      }
+    },
+    "60": {
+      "ours": {
+        "mota": 0.5263619027985362,
+        "TP": 11929,
+        "FP": 1552,
+        "FN": 7474,
+        "IDSW": 164,
+        "GT": 19403,
+        "tracks": 216
+      },
+      "bytetrack-default": {
+        "mota": 0.187239086739164,
+        "TP": 3645,
+        "FP": 11,
+        "FN": 15758,
+        "IDSW": 1,
+        "GT": 19403,
+        "tracks": 11,
+        "state": {
+          "calls": 1470,
+          "det_calls": 368,
+          "max_tracked": 15,
+          "max_activated": 11,
+          "max_unconfirmed": 12,
+          "final_tracked": 0,
+          "final_activated": 0,
+          "out_rows": 903,
+          "first_call": {
+            "frame_call": 1,
+            "n_dets": 15,
+            "tracked": 11,
+            "activated": 11,
+            "unconfirmed": 0,
+            "lost": 0,
+            "out": 11
+          },
+          "second_det_call": {
+            "frame_call": 5,
+            "n_dets": 19,
+            "tracked": 10,
+            "activated": 9,
+            "unconfirmed": 1,
+            "lost": 2,
+            "out": 9
+          },
+          "sample_mid": {
+            "frame_call": 737,
+            "n_dets": 8,
+            "tracked": 6,
+            "activated": 1,
+            "unconfirmed": 5,
+            "lost": 0,
+            "out": 1
+          }
+        }
+      },
+      "bytetrack-keep-unconfirmed": {
+        "mota": 0.520898830077823,
+        "TP": 11655,
+        "FP": 1456,
+        "FN": 7748,
+        "IDSW": 92,
+        "GT": 19403,
+        "tracks": 128,
+        "state": {
+          "calls": 1470,
+          "det_calls": 368,
+          "max_tracked": 55,
+          "max_activated": 14,
+          "max_unconfirmed": 44,
+          "final_tracked": 43,
+          "final_activated": 0,
+          "out_rows": 3233,
+          "first_call": {
+            "frame_call": 1,
+            "n_dets": 15,
+            "tracked": 11,
+            "activated": 11,
+            "unconfirmed": 0,
+            "lost": 0,
+            "out": 11
+          },
+          "second_det_call": {
+            "frame_call": 5,
+            "n_dets": 19,
+            "tracked": 10,
+            "activated": 9,
+            "unconfirmed": 1,
+            "lost": 2,
+            "out": 9
+          },
+          "sample_mid": {
+            "frame_call": 737,
+            "n_dets": 8,
+            "tracked": 16,
+            "activated": 5,
+            "unconfirmed": 11,
+            "lost": 2,
+            "out": 5
+          }
+        }
+      },
+      "botsort-default": {
+        "mota": 0.187239086739164,
+        "TP": 3645,
+        "FP": 11,
+        "FN": 15758,
+        "IDSW": 1,
+        "GT": 19403,
+        "tracks": 11,
+        "state": {
+          "calls": 1470,
+          "det_calls": 368,
+          "max_tracked": 15,
+          "max_activated": 11,
+          "max_unconfirmed": 12,
+          "final_tracked": 0,
+          "final_activated": 0,
+          "out_rows": 903,
+          "first_call": {
+            "frame_call": 1,
+            "n_dets": 15,
+            "tracked": 11,
+            "activated": 11,
+            "unconfirmed": 0,
+            "lost": 0,
+            "out": 11
+          },
+          "second_det_call": {
+            "frame_call": 5,
+            "n_dets": 19,
+            "tracked": 10,
+            "activated": 9,
+            "unconfirmed": 1,
+            "lost": 2,
+            "out": 9
+          },
+          "sample_mid": {
+            "frame_call": 737,
+            "n_dets": 8,
+            "tracked": 6,
+            "activated": 1,
+            "unconfirmed": 5,
+            "lost": 0,
+            "out": 1
+          }
+        }
+      },
+      "botsort-keep-unconfirmed": {
+        "mota": 0.5274442096583003,
+        "TP": 11719,
+        "FP": 1393,
+        "FN": 7684,
+        "IDSW": 92,
+        "GT": 19403,
+        "tracks": 129,
+        "state": {
+          "calls": 1470,
+          "det_calls": 368,
+          "max_tracked": 52,
+          "max_activated": 14,
+          "max_unconfirmed": 42,
+          "final_tracked": 40,
+          "final_activated": 0,
+          "out_rows": 3235,
+          "first_call": {
+            "frame_call": 1,
+            "n_dets": 15,
+            "tracked": 11,
+            "activated": 11,
+            "unconfirmed": 0,
+            "lost": 0,
+            "out": 11
+          },
+          "second_det_call": {
+            "frame_call": 5,
+            "n_dets": 19,
+            "tracked": 10,
+            "activated": 9,
+            "unconfirmed": 1,
+            "lost": 2,
+            "out": 9
+          },
+          "sample_mid": {
+            "frame_call": 737,
+            "n_dets": 8,
+            "tracked": 16,
+            "activated": 5,
+            "unconfirmed": 11,
+            "lost": 2,
+            "out": 5
+          }
+        }
+      }
+    },
+    "54": {
+      "ours": {
+        "mota": 0.5932265302927516,
+        "TP": 29092,
+        "FP": 6023,
+        "FN": 9234,
+        "IDSW": 333,
+        "GT": 38326,
+        "tracks": 474
+      },
+      "bytetrack-default": {
+        "mota": 0.2110316756249021,
+        "TP": 8243,
+        "FP": 154,
+        "FN": 30083,
+        "IDSW": 1,
+        "GT": 38326,
+        "tracks": 15,
+        "state": {
+          "calls": 1470,
+          "det_calls": 368,
+          "max_tracked": 24,
+          "max_activated": 15,
+          "max_unconfirmed": 24,
+          "final_tracked": 0,
+          "final_activated": 0,
+          "out_rows": 2077,
+          "first_call": {
+            "frame_call": 1,
+            "n_dets": 41,
+            "tracked": 15,
+            "activated": 15,
+            "unconfirmed": 0,
+            "lost": 0,
+            "out": 15
+          },
+          "second_det_call": {
+            "frame_call": 5,
+            "n_dets": 38,
+            "tracked": 19,
+            "activated": 12,
+            "unconfirmed": 7,
+            "lost": 3,
+            "out": 12
+          },
+          "sample_mid": {
+            "frame_call": 737,
+            "n_dets": 42,
+            "tracked": 19,
+            "activated": 7,
+            "unconfirmed": 12,
+            "lost": 0,
+            "out": 7
+          }
+        }
+      },
+      "bytetrack-keep-unconfirmed": {
+        "mota": 0.6111516985858164,
+        "TP": 27492,
+        "FP": 3921,
+        "FN": 10834,
+        "IDSW": 148,
+        "GT": 38326,
+        "tracks": 245,
+        "state": {
+          "calls": 1470,
+          "det_calls": 368,
+          "max_tracked": 217,
+          "max_activated": 28,
+          "max_unconfirmed": 191,
+          "final_tracked": 191,
+          "final_activated": 0,
+          "out_rows": 7766,
+          "first_call": {
+            "frame_call": 1,
+            "n_dets": 41,
+            "tracked": 15,
+            "activated": 15,
+            "unconfirmed": 0,
+            "lost": 0,
+            "out": 15
+          },
+          "second_det_call": {
+            "frame_call": 5,
+            "n_dets": 38,
+            "tracked": 19,
+            "activated": 12,
+            "unconfirmed": 7,
+            "lost": 3,
+            "out": 12
+          },
+          "sample_mid": {
+            "frame_call": 737,
+            "n_dets": 42,
+            "tracked": 160,
+            "activated": 23,
+            "unconfirmed": 137,
+            "lost": 2,
+            "out": 23
+          }
+        }
+      },
+      "botsort-default": {
+        "mota": 0.21131868705317536,
+        "TP": 8248,
+        "FP": 149,
+        "FN": 30078,
+        "IDSW": 0,
+        "GT": 38326,
+        "tracks": 15,
+        "state": {
+          "calls": 1470,
+          "det_calls": 368,
+          "max_tracked": 24,
+          "max_activated": 15,
+          "max_unconfirmed": 24,
+          "final_tracked": 0,
+          "final_activated": 0,
+          "out_rows": 2077,
+          "first_call": {
+            "frame_call": 1,
+            "n_dets": 41,
+            "tracked": 15,
+            "activated": 15,
+            "unconfirmed": 0,
+            "lost": 0,
+            "out": 15
+          },
+          "second_det_call": {
+            "frame_call": 5,
+            "n_dets": 38,
+            "tracked": 19,
+            "activated": 12,
+            "unconfirmed": 7,
+            "lost": 3,
+            "out": 12
+          },
+          "sample_mid": {
+            "frame_call": 737,
+            "n_dets": 42,
+            "tracked": 19,
+            "activated": 7,
+            "unconfirmed": 12,
+            "lost": 0,
+            "out": 7
+          }
+        }
+      },
+      "botsort-keep-unconfirmed": {
+        "mota": 0.6121431926107603,
+        "TP": 27513,
+        "FP": 3908,
+        "FN": 10813,
+        "IDSW": 144,
+        "GT": 38326,
+        "tracks": 244,
+        "state": {
+          "calls": 1470,
+          "det_calls": 368,
+          "max_tracked": 217,
+          "max_activated": 28,
+          "max_unconfirmed": 191,
+          "final_tracked": 191,
+          "final_activated": 0,
+          "out_rows": 7767,
+          "first_call": {
+            "frame_call": 1,
+            "n_dets": 41,
+            "tracked": 15,
+            "activated": 15,
+            "unconfirmed": 0,
+            "lost": 0,
+            "out": 15
+          },
+          "second_det_call": {
+            "frame_call": 5,
+            "n_dets": 38,
+            "tracked": 19,
+            "activated": 12,
+            "unconfirmed": 7,
+            "lost": 3,
+            "out": 12
+          },
+          "sample_mid": {
+            "frame_call": 737,
+            "n_dets": 42,
+            "tracked": 159,
+            "activated": 23,
+            "unconfirmed": 136,
+            "lost": 2,
+            "out": 23
+          }
+        }
+      }
+    },
+    "52": {
+      "ours": {
+        "mota": 0.45549270616254833,
+        "TP": 10148,
+        "FP": 3990,
+        "FN": 3288,
+        "IDSW": 38,
+        "GT": 13436,
+        "tracks": 81
+      },
+      "bytetrack-default": {
+        "mota": -0.05961595713009826,
+        "TP": 441,
+        "FP": 1242,
+        "FN": 12995,
+        "IDSW": 0,
+        "GT": 13436,
+        "tracks": 7,
+        "state": {
+          "calls": 1440,
+          "det_calls": 360,
+          "max_tracked": 21,
+          "max_activated": 7,
+          "max_unconfirmed": 21,
+          "final_tracked": 0,
+          "final_activated": 0,
+          "out_rows": 426,
+          "first_call": {
+            "frame_call": 1,
+            "n_dets": 18,
+            "tracked": 7,
+            "activated": 7,
+            "unconfirmed": 0,
+            "lost": 0,
+            "out": 7
+          },
+          "second_det_call": {
+            "frame_call": 5,
+            "n_dets": 13,
+            "tracked": 7,
+            "activated": 4,
+            "unconfirmed": 3,
+            "lost": 3,
+            "out": 4
+          },
+          "sample_mid": {
+            "frame_call": 721,
+            "n_dets": 15,
+            "tracked": 6,
+            "activated": 0,
+            "unconfirmed": 6,
+            "lost": 0,
+            "out": 0
+          }
+        }
+      },
+      "bytetrack-keep-unconfirmed": {
+        "mota": 0.4653170586484072,
+        "TP": 10136,
+        "FP": 3866,
+        "FN": 3300,
+        "IDSW": 18,
+        "GT": 13436,
+        "tracks": 60,
+        "state": {
+          "calls": 1440,
+          "det_calls": 360,
+          "max_tracked": 27,
+          "max_activated": 21,
+          "max_unconfirmed": 20,
+          "final_tracked": 6,
+          "final_activated": 0,
+          "out_rows": 3464,
+          "first_call": {
+            "frame_call": 1,
+            "n_dets": 18,
+            "tracked": 7,
+            "activated": 7,
+            "unconfirmed": 0,
+            "lost": 0,
+            "out": 7
+          },
+          "second_det_call": {
+            "frame_call": 5,
+            "n_dets": 13,
+            "tracked": 7,
+            "activated": 4,
+            "unconfirmed": 3,
+            "lost": 3,
+            "out": 4
+          },
+          "sample_mid": {
+            "frame_call": 721,
+            "n_dets": 15,
+            "tracked": 8,
+            "activated": 6,
+            "unconfirmed": 2,
+            "lost": 1,
+            "out": 6
+          }
+        }
+      },
+      "botsort-default": {
+        "mota": -0.0584251265257516,
+        "TP": 449,
+        "FP": 1234,
+        "FN": 12987,
+        "IDSW": 0,
+        "GT": 13436,
+        "tracks": 7,
+        "state": {
+          "calls": 1440,
+          "det_calls": 360,
+          "max_tracked": 21,
+          "max_activated": 7,
+          "max_unconfirmed": 21,
+          "final_tracked": 0,
+          "final_activated": 0,
+          "out_rows": 426,
+          "first_call": {
+            "frame_call": 1,
+            "n_dets": 18,
+            "tracked": 7,
+            "activated": 7,
+            "unconfirmed": 0,
+            "lost": 0,
+            "out": 7
+          },
+          "second_det_call": {
+            "frame_call": 5,
+            "n_dets": 13,
+            "tracked": 7,
+            "activated": 4,
+            "unconfirmed": 3,
+            "lost": 3,
+            "out": 4
+          },
+          "sample_mid": {
+            "frame_call": 721,
+            "n_dets": 15,
+            "tracked": 6,
+            "activated": 0,
+            "unconfirmed": 6,
+            "lost": 0,
+            "out": 0
+          }
+        }
+      },
+      "botsort-keep-unconfirmed": {
+        "mota": 0.4670288776421554,
+        "TP": 10146,
+        "FP": 3852,
+        "FN": 3290,
+        "IDSW": 19,
+        "GT": 13436,
+        "tracks": 60,
+        "state": {
+          "calls": 1440,
+          "det_calls": 360,
+          "max_tracked": 27,
+          "max_activated": 21,
+          "max_unconfirmed": 20,
+          "final_tracked": 7,
+          "final_activated": 0,
+          "out_rows": 3463,
+          "first_call": {
+            "frame_call": 1,
+            "n_dets": 18,
+            "tracked": 7,
+            "activated": 7,
+            "unconfirmed": 0,
+            "lost": 0,
+            "out": 7
+          },
+          "second_det_call": {
+            "frame_call": 5,
+            "n_dets": 13,
+            "tracked": 7,
+            "activated": 4,
+            "unconfirmed": 3,
+            "lost": 3,
+            "out": 4
+          },
+          "sample_mid": {
+            "frame_call": 721,
+            "n_dets": 15,
+            "tracked": 8,
+            "activated": 6,
+            "unconfirmed": 2,
+            "lost": 1,
+            "out": 6
+          }
+        }
+      }
+    }
+  }
+}

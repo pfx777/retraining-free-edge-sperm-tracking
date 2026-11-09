@@ -1,0 +1,14 @@
+torch>=2.5.0
+torchvision>=0.20.0
+ultralytics==8.3.163
+numpy>=2.0
+opencv-python>=4.10
+matplotlib>=3.9
+scipy>=1.14
+pandas>=2.2
+PyYAML>=6.0
+Pillow>=10.4
+PyMuPDF>=1.24
+python-docx>=1.1
+lap>=0.5.12
+filterpy>=1.4.5

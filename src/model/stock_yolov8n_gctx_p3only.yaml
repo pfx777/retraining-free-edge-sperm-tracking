@@ -1,0 +1,46 @@
+# E34: the delivery model with the dead detection branches removed.
+#
+# Measured, on both precisions (2026-09-23):
+#   * board INT8 dump, four sessions (1500/1470/1470/1440 frames): every
+#     surviving detection is **level 0 / stride 8** -- 54076/20950/71903/23915
+#     rows, zero from level 1 or 2;
+#   * host FP32 ONNX, 40 frames at conf 0.25 + NMS: 766 detections, **all L0**.
+# So the stride-16 and stride-32 detection branches never fire at the delivered
+# operating point, and neither does the bottom-up neck path that feeds them.
+# They are pure latency: this yaml keeps the top-down path P5->P4->P3 (which is
+# what P3 consumes) and the GatedCtx module (E26), and drops everything after it.
+#
+# Single variable against E26 (stock_yolov8n_gctx.yaml): the two dead detection
+# branches and the bottom-up neck layers are gone; the P3 input is bit-identical.
+#
+# MANDATORY pre-check for every arm: export the head-raw ONNX and run
+# audit_onnx_ops.py BEFORE training.
+nc: 1
+scales:
+  n: [0.33, 0.25, 1024]
+  s: [0.33, 0.50, 1024]
+  m: [0.67, 0.75, 768]
+  l: [1.00, 1.00, 512]
+  x: [1.00, 1.25, 512]
+
+backbone:
+  - [-1, 1, Conv, [64, 3, 2]]      # 0-P1/2
+  - [-1, 1, Conv, [128, 3, 2]]     # 1-P2/4
+  - [-1, 3, C2f, [128, True]]      # 2
+  - [-1, 1, Conv, [256, 3, 2]]     # 3-P3/8
+  - [-1, 6, C2f, [256, True]]      # 4
+  - [-1, 1, Conv, [512, 3, 2]]     # 5-P4/16
+  - [-1, 6, C2f, [512, True]]      # 6
+  - [-1, 1, Conv, [1024, 3, 2]]    # 7-P5/32
+  - [-1, 3, C2f, [1024, True]]     # 8
+  - [-1, 1, SPPF, [1024, 5]]       # 9
+
+head:
+  - [-1, 1, nn.Upsample, [None, 2, "nearest"]]   # 10
+  - [[-1, 6], 1, Concat, [1]]                    # 11
+  - [-1, 3, C2f, [512]]                          # 12
+  - [-1, 1, nn.Upsample, [None, 2, "nearest"]]   # 13
+  - [[-1, 4], 1, Concat, [1]]                    # 14
+  - [-1, 3, C2f, [256]]                          # 15 (P3/8)
+  - [-1, 1, GatedCtx, [64]]                      # 16 (E26's module, kept)
+  - [[16], 1, Detect, [nc]]                      # 17 single-level head

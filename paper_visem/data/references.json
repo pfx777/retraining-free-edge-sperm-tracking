@@ -1,0 +1,620 @@
+{
+  "senet": {
+    "title": "Squeeze-and-Excitation Networks",
+    "authors": [
+      "Jie Hu",
+      "Li Shen",
+      "Gang Sun"
+    ],
+    "year": 2018,
+    "venue": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "doi": "10.1109/cvpr.2018.00745",
+    "type": "proceedings-article",
+    "source": "crossref",
+    "key": "senet",
+    "score": 1.0,
+    "query_title": "Squeeze-and-Excitation Networks"
+  },
+  "tent": {
+    "key": "tent",
+    "score": 1.0,
+    "title": "Tent: Fully Test-time Adaptation by Entropy Minimization",
+    "authors": [
+      "Dequan Wang",
+      "Evan Shelhamer",
+      "Shaoteng Liu",
+      "Bruno A. Olshausen",
+      "Trevor J. Darrell"
+    ],
+    "year": 2020,
+    "venue": "arXiv (Cornell University)",
+    "doi": "10.48550/arxiv.2006.10726",
+    "type": "preprint",
+    "source": "openalex",
+    "abstract": "A model must adapt itself to generalize to new and different data during testing. In this setting of fully test-time adaptation the model has only the test data and its own parameters. We propose to adapt by test entropy minimization (tent): we optimize the model for confidence as measured by the entropy of its predictions. Our method estimates normalization statistics and optimizes channel-wise affine transformations to update online on each batch. Tent reduces generalization error for image classification on corrupted ImageNet and CIFAR-10/100 and reaches a new state-of-the-art error on ImageNet-C. Tent handles source-free domain adaptation on digit recognition from SVHN to MNIST/MNIST-M/USPS, on semantic segmentation from GTA to Cityscapes, and on the VisDA-C benchmark. These results are achieved in one epoch of test-time optimization without altering training."
+  },
+  "bn_adapt": {
+    "key": "bn_adapt",
+    "score": 1.0,
+    "title": "Improving robustness against common corruptions by covariate shift adaptation",
+    "authors": [
+      "Steffen Schneider",
+      "Evgenia Rusak",
+      "Luisa Eck",
+      "Oliver Bringmann",
+      "Wieland Brendel",
+      "Matthias Bethge"
+    ],
+    "year": 2020,
+    "venue": "arXiv (Cornell University)",
+    "doi": "10.48550/arxiv.2006.16971",
+    "type": "preprint",
+    "source": "openalex",
+    "abstract": "Today's state-of-the-art machine vision models are vulnerable to image corruptions like blurring or compression artefacts, limiting their performance in many real-world applications. We here argue that popular benchmarks to measure model robustness against common corruptions (like ImageNet-C) underestimate model robustness in many (but not all) application scenarios. The key insight is that in many scenarios, multiple unlabeled examples of the corruptions are available and can be used for unsupervised online adaptation. Replacing the activation statistics estimated by batch normalization on the training set with the statistics of the corrupted images consistently improves the robustness across 25 different popular computer vision models. Using the corrected statistics, ResNet-50 reaches 62.2% mCE on ImageNet-C compared to 76.7% without adaptation. With the more robust DeepAugment+AugMix model, we improve the state of the art achieved by a ResNet50 model up to date from 53.6% mCE to 45.4% mCE. Even adapting to a single sample improves robustness for the ResNet-50 and AugMix models, and 32 samples are sufficient to improve the current state of the art for a ResNet-50 architecture. We"
+  },
+  "guo_calibration": {
+    "key": "guo_calibration",
+    "score": 1.0,
+    "title": "On Calibration of Modern Neural Networks",
+    "authors": [
+      "Chuan Guo",
+      "Geoff Pleiss",
+      "Yu Sun",
+      "Kilian Q. Weinberger"
+    ],
+    "year": 2017,
+    "venue": "arXiv (Cornell University)",
+    "doi": "10.48550/arxiv.1706.04599",
+    "type": "preprint",
+    "source": "openalex",
+    "abstract": "Confidence calibration -- the problem of predicting probability estimates representative of the true correctness likelihood -- is important for classification models in many applications. We discover that modern neural networks, unlike those from a decade ago, are poorly calibrated. Through extensive experiments, we observe that depth, width, weight decay, and Batch Normalization are important factors influencing calibration. We evaluate the performance of various post-processing calibration methods on state-of-the-art architectures with image and document classification datasets. Our analysis and experiments not only offer insights into neural network learning, but also provide a simple and straightforward recipe for practical settings: on most datasets, temperature scaling -- a single-parameter variant of Platt Scaling -- is surprisingly effective at calibrating predictions."
+  },
+  "cbam": {
+    "key": "cbam",
+    "score": 1.0,
+    "title": "CBAM: Convolutional Block Attention Module",
+    "authors": [
+      "Sanghyun Woo",
+      "Jongchan Park",
+      "Joon-Young Lee",
+      "In So Kweon"
+    ],
+    "year": 2018,
+    "venue": "Lecture notes in computer science",
+    "doi": "10.1007/978-3-030-01234-2_1",
+    "type": "conference-paper",
+    "source": "openalex",
+    "abstract": ""
+  },
+  "han_prune": {
+    "key": "han_prune",
+    "score": 1.0,
+    "title": "Learning both Weights and Connections for Efficient Neural Networks",
+    "authors": [
+      "Song Han",
+      "Jeff Pool",
+      "John J. Tran",
+      "William J. Dally"
+    ],
+    "year": 2015,
+    "venue": "arXiv (Cornell University)",
+    "doi": "10.48550/arxiv.1506.02626",
+    "type": "preprint",
+    "source": "openalex",
+    "abstract": "Neural networks are both computationally intensive and memory intensive, making them difficult to deploy on embedded systems. Also, conventional networks fix the architecture before training starts; as a result, training cannot improve the architecture. To address these limitations, we describe a method to reduce the storage and computation required by neural networks by an order of magnitude without affecting their accuracy by learning only the important connections. Our method prunes redundant connections using a three-step method. First, we train the network to learn which connections are important. Next, we prune the unimportant connections. Finally, we retrain the network to fine tune the weights of the remaining connections. On the ImageNet dataset, our method reduced the number of parameters of AlexNet by a factor of 9x, from 61 million to 6.7 million, without incurring accuracy loss. Similar experiments with VGG-16 found that the number of parameters can be reduced by 13x, from 138 million to 10.3 million, again with no loss of accuracy."
+  },
+  "yolov4": {
+    "key": "yolov4",
+    "score": 1.0,
+    "title": "YOLOv4: Optimal Speed and Accuracy of Object Detection",
+    "authors": [
+      "Alexey Bochkovskiy",
+      "Chien-Yao Wang",
+      "Hong-Yuan Mark Liao"
+    ],
+    "year": 2020,
+    "venue": "arXiv (Cornell University)",
+    "doi": "10.48550/arxiv.2004.10934",
+    "type": "preprint",
+    "source": "openalex",
+    "abstract": "There are a huge number of features which are said to improve Convolutional Neural Network (CNN) accuracy. Practical testing of combinations of such features on large datasets, and theoretical justification of the result, is required. Some features operate on certain models exclusively and for certain problems exclusively, or only for small-scale datasets; while some features, such as batch-normalization and residual-connections, are applicable to the majority of models, tasks, and datasets. We assume that such universal features include Weighted-Residual-Connections (WRC), Cross-Stage-Partial-connections (CSP), Cross mini-Batch Normalization (CmBN), Self-adversarial-training (SAT) and Mish-activation. We use new features: WRC, CSP, CmBN, SAT, Mish activation, Mosaic data augmentation, CmBN, DropBlock regularization, and CIoU loss, and combine some of them to achieve state-of-the-art results: 43.5% AP (65.7% AP50) for the MS COCO dataset at a realtime speed of ~65 FPS on Tesla V100. Source code is at https://github.com/AlexeyAB/darknet"
+  },
+  "dfl": {
+    "key": "dfl",
+    "score": 1.0,
+    "title": "Generalized Focal Loss: Learning Qualified and Distributed Bounding Boxes for Dense Object Detection",
+    "authors": [
+      "Xiang Li",
+      "Wenhai Wang",
+      "Lijun Wu",
+      "Shuo Chen",
+      "Xiaolin Hu",
+      "Jun Li",
+      "Jinhui Tang",
+      "Jian Jun Yang"
+    ],
+    "year": 2020,
+    "venue": "arXiv (Cornell University)",
+    "doi": "10.48550/arxiv.2006.04388",
+    "type": "preprint",
+    "source": "openalex",
+    "abstract": "One-stage detector basically formulates object detection as dense classification and localization. The classification is usually optimized by Focal Loss and the box location is commonly learned under Dirac delta distribution. A recent trend for one-stage detectors is to introduce an individual prediction branch to estimate the quality of localization, where the predicted quality facilitates the classification to improve detection performance. This paper delves into the representations of the above three fundamental elements: quality estimation, classification and localization. Two problems are discovered in existing practices, including (1) the inconsistent usage of the quality estimation and classification between training and inference and (2) the inflexible Dirac delta distribution for localization when there is ambiguity and uncertainty in complex scenes. To address the problems, we design new representations for these elements. Specifically, we merge the quality estimation into the class prediction vector to form a joint representation of localization quality and classification, and use a vector to represent arbitrary distribution of box locations. The improved representations"
+  },
+  "bytetrack": {
+    "key": "bytetrack",
+    "score": 1.0,
+    "title": "ByteTrack: Multi-object Tracking by Associating Every Detection Box",
+    "authors": [
+      "Yifu Zhang",
+      "Peize Sun",
+      "Yi Jiang",
+      "Dongdong Yu",
+      "Fucheng Weng",
+      "Zehuan Yuan",
+      "Ping Luo",
+      "Wenyu Liu"
+    ],
+    "year": 2022,
+    "venue": "Lecture notes in computer science",
+    "doi": "10.1007/978-3-031-20047-2_1",
+    "type": "conference-paper",
+    "source": "openalex",
+    "abstract": ""
+  },
+  "ocsort": {
+    "key": "ocsort",
+    "score": 1.0,
+    "title": "Observation-Centric SORT: Rethinking SORT for Robust Multi-Object Tracking",
+    "authors": [
+      "Jinkun Cao",
+      "Jiangmiao Pang",
+      "Xinshuo Weng",
+      "Rawal Khirodkar",
+      "Kris Kitani"
+    ],
+    "year": 2023,
+    "venue": "",
+    "doi": "10.1109/cvpr52729.2023.00934",
+    "type": "conference-paper",
+    "source": "openalex",
+    "abstract": "Kalman filter (KF) based methods for multi-object tracking (MOT) make an assumption that objects move linearly. While this assumption is acceptable for very short periods of occlusion, linear estimates of motion for prolonged time can be highly inaccurate. Moreover, when there is no measurement available to update Kalman filter parameters, the standard convention is to trust the priori state estimations for posteriori update. This leads to the accumulation of errors during a period of occlusion. The error causes significant motion direction variance in practice. In this work, we show that a basic Kalman filter can still obtain state-of-the-art tracking performance if proper care is taken to fix the noise accumulated during occlusion. Instead of relying only on the linear state estimate (i.e., estimation-centric approach), we use object observations (i.e., the measurements by object detector) to compute a virtual trajectory over the occlusion period to fix the error accumulation of filter parameters. This allows more time steps to correct errors accumulated during occlusion. We name our method Observation-Centric SORT (OC-SORT). It remains Simple, Online, and Real-Time but improves "
+  },
+  "visem_dataset": {
+    "key": "visem_dataset",
+    "title": "VISEM-Tracking, a human spermatozoa tracking dataset",
+    "authors": [
+      "Vajira Thambawita",
+      "Steven A. Hicks",
+      "Andrea M. Storås",
+      "Thu Nguyen",
+      "Jorunn M. Andersen",
+      "Oliwia Witczak"
+    ],
+    "year": 2023,
+    "venue": "Scientific Data",
+    "doi": "10.1038/s41597-023-02173-4",
+    "type": "journal-article",
+    "source": "openalex"
+  },
+  "yolov8e_trackevd": {
+    "key": "yolov8e_trackevd",
+    "title": "Sperm YOLOv8E-TrackEVD: A Novel Approach for Sperm Detection and Tracking",
+    "authors": [
+      "Chongming Zhang",
+      "Yaxuan Zhang",
+      "Zhanyuan Chang",
+      "Chuanjiang Li"
+    ],
+    "year": 2024,
+    "venue": "Sensors",
+    "doi": "10.3390/s24113493",
+    "type": "journal-article",
+    "source": "openalex"
+  },
+  "casa_review": {
+    "key": "casa_review",
+    "title": "Revolutionizing Sperm Analysis with AI: A Review of Computer-Aided Sperm Analysis",
+    "authors": [
+      "Francisco J. Baldán",
+      "Diego García-Gil",
+      "Carlos Fernandez-Basso"
+    ],
+    "year": 2025,
+    "venue": "Computation",
+    "doi": "10.3390/computation13060132",
+    "type": "review-article",
+    "source": "openalex"
+  },
+  "hmlab_sperm": {
+    "key": "hmlab_sperm",
+    "title": "Hi-LabSpermTracking: A Novel and High-Quality Sperm Tracking Dataset",
+    "authors": [
+      "Abdulsamet Aktaş",
+      "Görkem Serbes",
+      "Hakkı Uzun",
+      "Merve Hüner Yiğit",
+      "Nizamettin Aydın",
+      "Hamza Osman İlhan"
+    ],
+    "year": 2025,
+    "venue": "Advanced Intelligent Systems",
+    "doi": "10.1002/aisy.202500115",
+    "type": "journal-article",
+    "source": "openalex"
+  },
+  "bull_sperm": {
+    "key": "bull_sperm",
+    "title": "Bull Sperm Tracking and Machine Learning-Based Motility Classification",
+    "authors": [
+      "Priyanto Hidayatullah",
+      "Tati Latifah Mengko",
+      "Rinaldi Munir",
+      "Anggraini Barlian"
+    ],
+    "year": 2021,
+    "venue": "IEEE Access",
+    "doi": "10.1109/access.2021.3074127",
+    "type": "journal-article",
+    "source": "openalex"
+  },
+  "metrics_reloaded": {
+    "key": "metrics_reloaded",
+    "title": "Metrics reloaded: recommendations for image analysis validation",
+    "authors": [
+      "Lena Maier-Hein",
+      "Annika Reinke",
+      "Patrick Godau",
+      "Minu D. Tizabi",
+      "Florian Buettner",
+      "Evangelia Christodoulou"
+    ],
+    "year": 2024,
+    "venue": "Nature Methods",
+    "doi": "10.1038/s41592-023-02151-z",
+    "type": "journal-article",
+    "source": "openalex"
+  },
+  "mot_survey": {
+    "key": "mot_survey",
+    "title": "Multiple Object Tracking in Deep Learning Approaches: A Survey",
+    "authors": [
+      "Yesul Park",
+      "L. Minh Dang",
+      "Sujin Lee",
+      "Dongil Han",
+      "Hyeonjoon Moon"
+    ],
+    "year": 2021,
+    "venue": "Electronics",
+    "doi": "10.3390/electronics10192406",
+    "type": "review-article",
+    "source": "openalex"
+  },
+  "clear_mot": {
+    "key": "clear_mot",
+    "title": "Evaluating Multiple Object Tracking Performance: The CLEAR MOT Metrics",
+    "authors": [
+      "Keni Bernardin",
+      "Rainer Stiefelhagen"
+    ],
+    "year": 2008,
+    "venue": "EURASIP Journal on Image and Video Processing",
+    "doi": "10.1155/2008/246309",
+    "type": "journal-article",
+    "source": "crossref",
+    "score": 1.0
+  },
+  "motchallenge": {
+    "key": "motchallenge",
+    "title": "MOTChallenge: A Benchmark for Single-Camera Multiple Target Tracking",
+    "authors": [
+      "Patrick Dendorfer",
+      "Aljoša Ošep",
+      "Anton Milan",
+      "Konrad Schindler",
+      "Daniel Cremers",
+      "Ian Reid"
+    ],
+    "year": 2020,
+    "venue": "International Journal of Computer Vision",
+    "doi": "10.1007/s11263-020-01393-0",
+    "type": "journal-article",
+    "source": "crossref",
+    "score": 1.0
+  },
+  "sort": {
+    "key": "sort",
+    "title": "Simple online and realtime tracking",
+    "authors": [
+      "Alex Bewley",
+      "Zongyuan Ge",
+      "Lionel Ott",
+      "Fabio Ramos",
+      "Ben Upcroft"
+    ],
+    "year": 2016,
+    "venue": "2016 IEEE International Conference on Image Processing (ICIP)",
+    "doi": "10.1109/icip.2016.7533003",
+    "type": "proceedings-article",
+    "source": "crossref",
+    "score": 1.0
+  },
+  "deepocsort": {
+    "key": "deepocsort",
+    "title": "Deep OC-Sort: Multi-Pedestrian Tracking by Adaptive Re-Identification",
+    "authors": [
+      "Gerard Maggiolino",
+      "Adnan Ahmad",
+      "Jinkun Cao",
+      "Kris Kitani"
+    ],
+    "year": 2023,
+    "venue": "2023 IEEE International Conference on Image Processing (ICIP)",
+    "doi": "10.1109/icip49359.2023.10222576",
+    "type": "proceedings-article",
+    "source": "crossref",
+    "score": 1.0
+  },
+  "gcnet": {
+    "key": "gcnet",
+    "title": "GCNet: Non-Local Networks Meet Squeeze-Excitation Networks and Beyond",
+    "authors": [
+      "Yue Cao",
+      "Jiarui Xu",
+      "Stephen Lin",
+      "Fangyun Wei",
+      "Han Hu"
+    ],
+    "year": 2019,
+    "venue": "2019 IEEE/CVF International Conference on Computer Vision Workshop (ICCVW)",
+    "doi": "10.1109/iccvw.2019.00246",
+    "type": "proceedings-article",
+    "source": "crossref",
+    "score": 1.0
+  },
+  "psa": {
+    "key": "psa",
+    "title": "EPSANet: An Efficient Pyramid Squeeze Attention Block on Convolutional Neural Network",
+    "authors": [
+      "Hu Zhang",
+      "Keke Zu",
+      "Jian Lu",
+      "Yuru Zou",
+      "Deyu Meng"
+    ],
+    "year": 2023,
+    "venue": "Lecture Notes in Computer Science",
+    "doi": "10.1007/978-3-031-26313-2_33",
+    "type": "book-chapter",
+    "source": "crossref",
+    "score": 1.0
+  },
+  "smallobj_slice": {
+    "key": "smallobj_slice",
+    "title": "Slicing Aided Hyper Inference and Fine-Tuning for Small Object Detection",
+    "authors": [
+      "Fatih Cagatay Akyon",
+      "Sinan Onur Altinuc",
+      "Alptekin Temizel"
+    ],
+    "year": 2022,
+    "venue": "2022 IEEE International Conference on Image Processing (ICIP)",
+    "doi": "10.1109/icip46576.2022.9897990",
+    "type": "proceedings-article",
+    "source": "crossref",
+    "score": 1.0
+  },
+  "edge_yolo": {
+    "key": "edge_yolo",
+    "title": "A Survey on Efficient Convolutional Neural Networks and Hardware Acceleration",
+    "authors": [
+      "Deepak Ghimire",
+      "Dayoung Kil",
+      "Seong-heum Kim"
+    ],
+    "year": 2022,
+    "venue": "Electronics",
+    "doi": "10.3390/electronics11060945",
+    "type": "journal-article",
+    "source": "crossref",
+    "score": 1.0
+  },
+  "tta_survey": {
+    "key": "tta_survey",
+    "title": "A Comprehensive Survey on Test-Time Adaptation Under Distribution Shifts",
+    "authors": [
+      "Jian Liang",
+      "Ran He",
+      "Tieniu Tan"
+    ],
+    "year": 2024,
+    "venue": "International Journal of Computer Vision",
+    "doi": "10.1007/s11263-024-02181-w",
+    "type": "journal-article",
+    "source": "crossref",
+    "score": 1.0
+  },
+  "microscopy_shift": {
+    "key": "microscopy_shift",
+    "title": "Domain Adaptation for Microscopy Imaging",
+    "authors": [
+      "Carlos Becker",
+      "C. Mario Christoudias",
+      "Pascal Fua"
+    ],
+    "year": 2015,
+    "venue": "IEEE Transactions on Medical Imaging",
+    "doi": "10.1109/tmi.2014.2376872",
+    "type": "journal-article",
+    "source": "crossref",
+    "score": 1.0
+  },
+  "who_manual": {
+    "key": "who_manual",
+    "title": "WHO laboratory manual for the examination and processing of human semen, 6th edition",
+    "authors": [
+      "World Health Organization"
+    ],
+    "year": 2021,
+    "venue": "World Health Organization (official publication)",
+    "url": "https://www.who.int/publications/i/item/9789240030787",
+    "type": "book",
+    "source": "official",
+    "verified": "WHO official publication page, ISBN 978-92-4-003078-7 (no journal DOI; official publication)"
+  },
+  "agarwal_male_infertility": {
+    "key": "agarwal_male_infertility",
+    "title": "Male infertility",
+    "authors": [
+      "Ashok Agarwal",
+      "Saradha Baskaran",
+      "Neel Parekh",
+      "Chak-Lam Cho",
+      "Ralf Henkel",
+      "Sarah Vij"
+    ],
+    "year": 2021,
+    "venue": "The Lancet",
+    "doi": "10.1016/S0140-6736(20)32667-2",
+    "type": "journal-article",
+    "source": "crossref",
+    "verified": "Crossref DOI resolved 2026-10-10"
+  },
+  "mortimer_casa": {
+    "key": "mortimer_casa",
+    "title": "CASA—Computer-Aided Sperm Analysis",
+    "authors": [
+      "Sharon T. Mortimer",
+      "Christopher J. De Jonge"
+    ],
+    "year": 2018,
+    "venue": "Encyclopedia of Reproduction",
+    "doi": "10.1016/B978-0-12-801238-3.64935-8",
+    "type": "book-chapter",
+    "source": "crossref",
+    "verified": "Crossref DOI resolved 2026-10-10"
+  },
+  "hota": {
+    "key": "hota",
+    "title": "HOTA: A Higher Order Metric for Evaluating Multi-object Tracking",
+    "authors": [
+      "Jonathon Luiten",
+      "Aljoša Ošep",
+      "Patrick Dendorfer",
+      "Philip Torr",
+      "Andreas Geiger",
+      "Laura Leal-Taixé"
+    ],
+    "year": 2020,
+    "venue": "International Journal of Computer Vision",
+    "doi": "10.1007/s11263-020-01375-2",
+    "type": "journal-article",
+    "source": "crossref",
+    "verified": "Crossref DOI resolved 2026-10-10"
+  },
+  "idf1": {
+    "key": "idf1",
+    "title": "Performance Measures and a Data Set for Multi-target, Multi-camera Tracking",
+    "authors": [
+      "Ergys Ristani",
+      "Francesco Solera",
+      "Roger Zou",
+      "Rita Cucchiara",
+      "Carlo Tomasi"
+    ],
+    "year": 2016,
+    "venue": "Lecture Notes in Computer Science (ECCV Workshops)",
+    "doi": "10.1007/978-3-319-48881-3_2",
+    "type": "book-chapter",
+    "source": "crossref",
+    "verified": "Crossref DOI resolved 2026-10-10"
+  },
+  "int8_quant": {
+    "key": "int8_quant",
+    "title": "Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference",
+    "authors": [
+      "Benoit Jacob",
+      "Skirmantas Kligys",
+      "Bo Chen",
+      "Menglong Zhu",
+      "Matthew Tang",
+      "Andrew Howard"
+    ],
+    "year": 2018,
+    "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "doi": "10.1109/CVPR.2018.00286",
+    "type": "conference-paper",
+    "source": "crossref",
+    "verified": "Crossref DOI resolved 2026-10-10"
+  },
+  "ptq_whitepaper": {
+    "key": "ptq_whitepaper",
+    "title": "A White Paper on Neural Network Quantization",
+    "authors": [
+      "Markus Nagel",
+      "Marios Fournarakis",
+      "Rana Ali Amjad",
+      "Yelysei Bondarenko",
+      "Mart van Baalen",
+      "Tijmen Blankevoort"
+    ],
+    "year": 2021,
+    "venue": "arXiv",
+    "doi": "10.48550/arXiv.2106.08295",
+    "type": "preprint",
+    "source": "openalex",
+    "verified": "OpenAlex DOI resolved 2026-10-10"
+  },
+  "zhou_hgdt": {
+    "key": "zhou_hgdt",
+    "title": "Hybrid generative-discriminative learning for online tracking of sperm cell",
+    "authors": [
+      "Xiuzhuang Zhou",
+      "Lin Ma",
+      "Yuanyuan Shang",
+      "Min Xu",
+      "Xiaoyan Fu",
+      "Hui Ding"
+    ],
+    "year": 2016,
+    "venue": "Neurocomputing",
+    "doi": "10.1016/j.neucom.2015.11.114",
+    "type": "journal-article",
+    "source": "provided-pdf",
+    "verified": "Provided Neurocomputing PDF: vol. 208, pp. 218-224, DOI on first page"
+  },
+  "mpq_yolo": {
+    "key": "mpq_yolo",
+    "title": "MPQ-YOLO: Ultra low mixed-precision quantization of YOLO for edge devices deployment",
+    "authors": [
+      "Xinyu Liu",
+      "Tao Wang",
+      "Jiaming Yang",
+      "Chenwei Tang",
+      "Jiancheng Lv"
+    ],
+    "year": 2024,
+    "venue": "Neurocomputing",
+    "doi": "10.1016/j.neucom.2023.127210",
+    "type": "journal-article",
+    "source": "provided-pdf",
+    "verified": "Provided Neurocomputing PDF: vol. 574, Art. no. 127210, DOI on first page"
+  },
+  "yang_nls_tta": {
+    "key": "yang_nls_tta",
+    "title": "Towards Test Time Domain Adaptation via Negative Label Smoothing",
+    "authors": [
+      "Hao Yang",
+      "Hao Zuo",
+      "Rui Zhou",
+      "Min Wang",
+      "Yun Zhou"
+    ],
+    "year": 2024,
+    "venue": "Neurocomputing",
+    "doi": "10.1016/j.neucom.2024.128182",
+    "type": "journal-article",
+    "source": "crossref",
+    "verified": "Crossref DOI resolved 2026-11-06"
+  }
+}

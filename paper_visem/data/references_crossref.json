@@ -1,0 +1,826 @@
+{
+  "senet": {
+    "title": "Squeeze-and-Excitation Networks",
+    "authors": [
+      "Jie Hu",
+      "Li Shen",
+      "Gang Sun"
+    ],
+    "volume": "",
+    "issue": "",
+    "page": "7132-7141",
+    "article_number": "",
+    "container_title": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "publisher": "IEEE",
+    "type": "proceedings-article",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr.2018.00745"
+  },
+  "cbam": {
+    "title": "CBAM: Convolutional Block Attention Module",
+    "authors": [
+      "Sanghyun Woo",
+      "Jongchan Park",
+      "Joon-Young Lee",
+      "In So Kweon"
+    ],
+    "volume": "",
+    "issue": "",
+    "page": "3-19",
+    "article_number": "",
+    "container_title": "Lecture Notes in Computer Science",
+    "publisher": "Springer International Publishing",
+    "type": "book-chapter",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "DOI": "10.1007/978-3-030-01234-2_1"
+  },
+  "bytetrack": {
+    "title": "ByteTrack: Multi-object Tracking by Associating Every Detection Box",
+    "authors": [
+      "Yifu Zhang",
+      "Peize Sun",
+      "Yi Jiang",
+      "Dongdong Yu",
+      "Fucheng Weng",
+      "Zehuan Yuan",
+      "Ping Luo",
+      "Wenyu Liu",
+      "Xinggang Wang"
+    ],
+    "volume": "",
+    "issue": "",
+    "page": "1-21",
+    "article_number": "",
+    "container_title": "Lecture Notes in Computer Science",
+    "publisher": "Springer Nature Switzerland",
+    "type": "book-chapter",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "DOI": "10.1007/978-3-031-20047-2_1"
+  },
+  "ocsort": {
+    "title": "Observation-Centric SORT: Rethinking SORT for Robust Multi-Object Tracking",
+    "authors": [
+      "Jinkun Cao",
+      "Jiangmiao Pang",
+      "Xinshuo Weng",
+      "Rawal Khirodkar",
+      "Kris Kitani"
+    ],
+    "volume": "",
+    "issue": "",
+    "page": "9686-9696",
+    "article_number": "",
+    "container_title": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "publisher": "IEEE",
+    "type": "proceedings-article",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr52729.2023.00934"
+  },
+  "visem_dataset": {
+    "title": "VISEM-Tracking, a human spermatozoa tracking dataset",
+    "authors": [
+      "Vajira Thambawita",
+      "Steven A. Hicks",
+      "Andrea M. Storås",
+      "Thu Nguyen",
+      "Jorunn M. Andersen",
+      "Oliwia Witczak",
+      "Trine B. Haugen",
+      "Hugo L. Hammer",
+      "Pål Halvorsen",
+      "Michael A. Riegler"
+    ],
+    "volume": "10",
+    "issue": "1",
+    "page": "",
+    "article_number": "260",
+    "container_title": "Scientific Data",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          9
+        ]
+      ]
+    },
+    "DOI": "10.1038/s41597-023-02173-4"
+  },
+  "yolov8e_trackevd": {
+    "title": "Sperm YOLOv8E-TrackEVD: A Novel Approach for Sperm Detection and Tracking",
+    "authors": [
+      "Chongming Zhang",
+      "Yaxuan Zhang",
+      "Zhanyuan Chang",
+      "Chuanjiang Li"
+    ],
+    "volume": "24",
+    "issue": "11",
+    "page": "3493",
+    "article_number": "",
+    "container_title": "Sensors",
+    "publisher": "MDPI AG",
+    "type": "journal-article",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          28
+        ]
+      ]
+    },
+    "DOI": "10.3390/s24113493"
+  },
+  "casa_review": {
+    "title": "Revolutionizing Sperm Analysis with AI: A Review of Computer-Aided Sperm Analysis Systems",
+    "authors": [
+      "Francisco J. Baldán",
+      "Diego García-Gil",
+      "Carlos Fernandez-Basso"
+    ],
+    "volume": "13",
+    "issue": "6",
+    "page": "132",
+    "article_number": "",
+    "container_title": "Computation",
+    "publisher": "MDPI AG",
+    "type": "journal-article",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          2
+        ]
+      ]
+    },
+    "DOI": "10.3390/computation13060132"
+  },
+  "hmlab_sperm": {
+    "title": "Hi‐LabSpermTracking: A Novel and High‐Quality Sperm Tracking Dataset with an Advanced Ensemble Detection and Tracking Approach for Real‐World Clinical Scenarios",
+    "authors": [
+      "Abdulsamet Aktas",
+      "Gorkem Serbes",
+      "Hakkı Uzun",
+      "Merve Huner Yigit",
+      "Nizamettin Aydin",
+      "Hamza Osman Ilhan"
+    ],
+    "volume": "7",
+    "issue": "12",
+    "page": "",
+    "article_number": "e202500115",
+    "container_title": "Advanced Intelligent Systems",
+    "publisher": "Wiley",
+    "type": "journal-article",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1002/aisy.202500115"
+  },
+  "bull_sperm": {
+    "title": "Bull Sperm Tracking and Machine Learning-Based Motility Classification",
+    "authors": [
+      "Priyanto Hidayatullah",
+      "Tati L. E. R. Mengko",
+      "Rinaldi Munir",
+      "Anggraini Barlian"
+    ],
+    "volume": "9",
+    "issue": "",
+    "page": "61159-61170",
+    "article_number": "",
+    "container_title": "IEEE Access",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "type": "journal-article",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "DOI": "10.1109/access.2021.3074127"
+  },
+  "metrics_reloaded": {
+    "title": "Metrics reloaded: recommendations for image analysis validation",
+    "authors": [
+      "Lena Maier-Hein",
+      "Annika Reinke",
+      "Patrick Godau",
+      "Minu D. Tizabi",
+      "Florian Buettner",
+      "Evangelia Christodoulou",
+      "Ben Glocker",
+      "Fabian Isensee",
+      "Jens Kleesiek",
+      "Michal Kozubek",
+      "Mauricio Reyes",
+      "Michael A. Riegler",
+      "Manuel Wiesenfarth",
+      "A. Emre Kavur",
+      "Carole H. Sudre",
+      "Michael Baumgartner",
+      "Matthias Eisenmann",
+      "Doreen Heckmann-Nötzel",
+      "Tim Rädsch",
+      "Laura Acion",
+      "Michela Antonelli",
+      "Tal Arbel",
+      "Spyridon Bakas",
+      "Arriel Benis",
+      "Matthew B. Blaschko",
+      "M. Jorge Cardoso",
+      "Veronika Cheplygina",
+      "Beth A. Cimini",
+      "Gary S. Collins",
+      "Keyvan Farahani",
+      "Luciana Ferrer",
+      "Adrian Galdran",
+      "Bram van Ginneken",
+      "Robert Haase",
+      "Daniel A. Hashimoto",
+      "Michael M. Hoffman",
+      "Merel Huisman",
+      "Pierre Jannin",
+      "Charles E. Kahn",
+      "Dagmar Kainmueller",
+      "Bernhard Kainz",
+      "Alexandros Karargyris",
+      "Alan Karthikesalingam",
+      "Florian Kofler",
+      "Annette Kopp-Schneider",
+      "Anna Kreshuk",
+      "Tahsin Kurc",
+      "Bennett A. Landman",
+      "Geert Litjens",
+      "Amin Madani",
+      "Klaus Maier-Hein",
+      "Anne L. Martel",
+      "Peter Mattson",
+      "Erik Meijering",
+      "Bjoern Menze",
+      "Karel G. M. Moons",
+      "Henning Müller",
+      "Brennan Nichyporuk",
+      "Felix Nickel",
+      "Jens Petersen",
+      "Nasir Rajpoot",
+      "Nicola Rieke",
+      "Julio Saez-Rodriguez",
+      "Clara I. Sánchez",
+      "Shravya Shetty",
+      "Maarten van Smeden",
+      "Ronald M. Summers",
+      "Abdel A. Taha",
+      "Aleksei Tiulpin",
+      "Sotirios A. Tsaftaris",
+      "Ben Van Calster",
+      "Gaël Varoquaux",
+      "Paul F. Jäger"
+    ],
+    "volume": "21",
+    "issue": "2",
+    "page": "195-212",
+    "article_number": "",
+    "container_title": "Nature Methods",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          2
+        ]
+      ]
+    },
+    "DOI": "10.1038/s41592-023-02151-z"
+  },
+  "mot_survey": {
+    "title": "Multiple Object Tracking in Deep Learning Approaches: A Survey",
+    "authors": [
+      "Yesul Park",
+      "L. Minh Dang",
+      "Sujin Lee",
+      "Dongil Han",
+      "Hyeonjoon Moon"
+    ],
+    "volume": "10",
+    "issue": "19",
+    "page": "2406",
+    "article_number": "",
+    "container_title": "Electronics",
+    "publisher": "MDPI AG",
+    "type": "journal-article",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          2
+        ]
+      ]
+    },
+    "DOI": "10.3390/electronics10192406"
+  },
+  "clear_mot": {
+    "title": "Evaluating Multiple Object Tracking Performance: The CLEAR MOT Metrics",
+    "authors": [
+      "Keni Bernardin",
+      "Rainer Stiefelhagen"
+    ],
+    "volume": "2008",
+    "issue": "",
+    "page": "1-10",
+    "article_number": "",
+    "container_title": "EURASIP Journal on Image and Video Processing",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "issued": {
+      "date-parts": [
+        [
+          2008
+        ]
+      ]
+    },
+    "DOI": "10.1155/2008/246309"
+  },
+  "motchallenge": {
+    "title": "MOTChallenge: A Benchmark for Single-Camera Multiple Target Tracking",
+    "authors": [
+      "Patrick Dendorfer",
+      "Aljos̆a Os̆ep",
+      "Anton Milan",
+      "Konrad Schindler",
+      "Daniel Cremers",
+      "Ian Reid",
+      "Stefan Roth",
+      "Laura Leal-Taixé"
+    ],
+    "volume": "129",
+    "issue": "4",
+    "page": "845-881",
+    "article_number": "",
+    "container_title": "International Journal of Computer Vision",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          23
+        ]
+      ]
+    },
+    "DOI": "10.1007/s11263-020-01393-0"
+  },
+  "sort": {
+    "title": "Simple online and realtime tracking",
+    "authors": [
+      "Alex Bewley",
+      "Zongyuan Ge",
+      "Lionel Ott",
+      "Fabio Ramos",
+      "Ben Upcroft"
+    ],
+    "volume": "",
+    "issue": "",
+    "page": "3464-3468",
+    "article_number": "",
+    "container_title": "2016 IEEE International Conference on Image Processing (ICIP)",
+    "publisher": "IEEE",
+    "type": "proceedings-article",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          9
+        ]
+      ]
+    },
+    "DOI": "10.1109/icip.2016.7533003"
+  },
+  "deepocsort": {
+    "title": "Deep OC-Sort: Multi-Pedestrian Tracking by Adaptive Re-Identification",
+    "authors": [
+      "Gerard Maggiolino",
+      "Adnan Ahmad",
+      "Jinkun Cao",
+      "Kris Kitani"
+    ],
+    "volume": "",
+    "issue": "",
+    "page": "3025-3029",
+    "article_number": "",
+    "container_title": "2023 IEEE International Conference on Image Processing (ICIP)",
+    "publisher": "IEEE",
+    "type": "proceedings-article",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          8
+        ]
+      ]
+    },
+    "DOI": "10.1109/icip49359.2023.10222576"
+  },
+  "gcnet": {
+    "title": "GCNet: Non-Local Networks Meet Squeeze-Excitation Networks and Beyond",
+    "authors": [
+      "Yue Cao",
+      "Jiarui Xu",
+      "Stephen Lin",
+      "Fangyun Wei",
+      "Han Hu"
+    ],
+    "volume": "",
+    "issue": "",
+    "page": "1971-1980",
+    "article_number": "",
+    "container_title": "2019 IEEE/CVF International Conference on Computer Vision Workshop (ICCVW)",
+    "publisher": "IEEE",
+    "type": "proceedings-article",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1109/iccvw.2019.00246"
+  },
+  "psa": {
+    "title": "EPSANet: An Efficient Pyramid Squeeze Attention Block on Convolutional Neural Network",
+    "authors": [
+      "Hu Zhang",
+      "Keke Zu",
+      "Jian Lu",
+      "Yuru Zou",
+      "Deyu Meng"
+    ],
+    "volume": "",
+    "issue": "",
+    "page": "541-557",
+    "article_number": "",
+    "container_title": "Lecture Notes in Computer Science",
+    "publisher": "Springer Nature Switzerland",
+    "type": "book-chapter",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "DOI": "10.1007/978-3-031-26313-2_33"
+  },
+  "smallobj_slice": {
+    "title": "Slicing Aided Hyper Inference and Fine-Tuning for Small Object Detection",
+    "authors": [
+      "Fatih Cagatay Akyon",
+      "Sinan Onur Altinuc",
+      "Alptekin Temizel"
+    ],
+    "volume": "",
+    "issue": "",
+    "page": "966-970",
+    "article_number": "",
+    "container_title": "2022 IEEE International Conference on Image Processing (ICIP)",
+    "publisher": "IEEE",
+    "type": "proceedings-article",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          16
+        ]
+      ]
+    },
+    "DOI": "10.1109/icip46576.2022.9897990"
+  },
+  "edge_yolo": {
+    "title": "A Survey on Efficient Convolutional Neural Networks and Hardware Acceleration",
+    "authors": [
+      "Deepak Ghimire",
+      "Dayoung Kil",
+      "Seong-heum Kim"
+    ],
+    "volume": "11",
+    "issue": "6",
+    "page": "945",
+    "article_number": "",
+    "container_title": "Electronics",
+    "publisher": "MDPI AG",
+    "type": "journal-article",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          18
+        ]
+      ]
+    },
+    "DOI": "10.3390/electronics11060945"
+  },
+  "tta_survey": {
+    "title": "A Comprehensive Survey on Test-Time Adaptation Under Distribution Shifts",
+    "authors": [
+      "Jian Liang",
+      "Ran He",
+      "Tieniu Tan"
+    ],
+    "volume": "133",
+    "issue": "1",
+    "page": "31-64",
+    "article_number": "",
+    "container_title": "International Journal of Computer Vision",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          18
+        ]
+      ]
+    },
+    "DOI": "10.1007/s11263-024-02181-w"
+  },
+  "microscopy_shift": {
+    "title": "Domain Adaptation for Microscopy Imaging",
+    "authors": [
+      "Carlos Becker",
+      "C. Mario Christoudias",
+      "Pascal Fua"
+    ],
+    "volume": "34",
+    "issue": "5",
+    "page": "1125-1139",
+    "article_number": "",
+    "container_title": "IEEE Transactions on Medical Imaging",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "type": "journal-article",
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          5
+        ]
+      ]
+    },
+    "DOI": "10.1109/tmi.2014.2376872"
+  },
+  "agarwal_male_infertility": {
+    "title": "Male infertility",
+    "authors": [
+      "Ashok Agarwal",
+      "Saradha Baskaran",
+      "Neel Parekh",
+      "Chak-Lam Cho",
+      "Ralf Henkel",
+      "Sarah Vij",
+      "Mohamed Arafa",
+      "Manesh Kumar Panner Selvam",
+      "Rupin Shah"
+    ],
+    "volume": "397",
+    "issue": "10271",
+    "page": "319-333",
+    "article_number": "",
+    "container_title": "The Lancet",
+    "publisher": "Elsevier BV",
+    "type": "journal-article",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1016/s0140-6736(20)32667-2"
+  },
+  "mortimer_casa": {
+    "title": "CASA—Computer-Aided Sperm Analysis",
+    "authors": [
+      "Sharon T Mortimer",
+      "Christopher J De Jonge"
+    ],
+    "volume": "",
+    "issue": "",
+    "page": "59-63",
+    "article_number": "",
+    "container_title": "Encyclopedia of Reproduction",
+    "publisher": "Elsevier",
+    "type": "book-chapter",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "DOI": "10.1016/b978-0-12-801238-3.64935-8"
+  },
+  "hota": {
+    "title": "HOTA: A Higher Order Metric for Evaluating Multi-object Tracking",
+    "authors": [
+      "Jonathon Luiten",
+      "Aljos̆a Os̆ep",
+      "Patrick Dendorfer",
+      "Philip Torr",
+      "Andreas Geiger",
+      "Laura Leal-Taixé",
+      "Bastian Leibe"
+    ],
+    "volume": "129",
+    "issue": "2",
+    "page": "548-578",
+    "article_number": "",
+    "container_title": "International Journal of Computer Vision",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          8
+        ]
+      ]
+    },
+    "DOI": "10.1007/s11263-020-01375-2"
+  },
+  "idf1": {
+    "title": "Performance Measures and a Data Set for Multi-target, Multi-camera Tracking",
+    "authors": [
+      "Ergys Ristani",
+      "Francesco Solera",
+      "Roger Zou",
+      "Rita Cucchiara",
+      "Carlo Tomasi"
+    ],
+    "volume": "",
+    "issue": "",
+    "page": "17-35",
+    "article_number": "",
+    "container_title": "Lecture Notes in Computer Science",
+    "publisher": "Springer International Publishing",
+    "type": "book-chapter",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "DOI": "10.1007/978-3-319-48881-3_2"
+  },
+  "int8_quant": {
+    "title": "Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference",
+    "authors": [
+      "Benoit Jacob",
+      "Skirmantas Kligys",
+      "Bo Chen",
+      "Menglong Zhu",
+      "Matthew Tang",
+      "Andrew Howard",
+      "Hartwig Adam",
+      "Dmitry Kalenichenko"
+    ],
+    "volume": "",
+    "issue": "",
+    "page": "2704-2713",
+    "article_number": "",
+    "container_title": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "publisher": "IEEE",
+    "type": "proceedings-article",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr.2018.00286"
+  },
+  "zhou_hgdt": {
+    "title": "Hybrid generative-discriminative learning for online tracking of sperm cell",
+    "authors": [
+      "Xiuzhuang Zhou",
+      "Lin Ma",
+      "Yuanyuan Shang",
+      "Min Xu",
+      "Xiaoyan Fu",
+      "Hui Ding"
+    ],
+    "volume": "208",
+    "issue": "",
+    "page": "218-224",
+    "article_number": "",
+    "container_title": "Neurocomputing",
+    "publisher": "Elsevier",
+    "type": "journal-article",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.neucom.2015.11.114"
+  },
+  "mpq_yolo": {
+    "title": "MPQ-YOLO: Ultra low mixed-precision quantization of YOLO for edge devices deployment",
+    "authors": [
+      "Xinyu Liu",
+      "Tao Wang",
+      "Jiaming Yang",
+      "Chenwei Tang",
+      "Jiancheng Lv"
+    ],
+    "volume": "574",
+    "issue": "",
+    "page": "",
+    "article_number": "127210",
+    "container_title": "Neurocomputing",
+    "publisher": "Elsevier",
+    "type": "journal-article",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.neucom.2023.127210"
+  },
+  "yang_nls_tta": {
+    "title": "Towards Test Time Domain Adaptation via Negative Label Smoothing",
+    "authors": [
+      "Hao Yang",
+      "Hao Zuo",
+      "Rui Zhou",
+      "Min Wang",
+      "Yun Zhou"
+    ],
+    "volume": "600",
+    "issue": "",
+    "page": "",
+    "article_number": "128182",
+    "container_title": "Neurocomputing",
+    "publisher": "Elsevier",
+    "type": "journal-article",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.neucom.2024.128182"
+  }
+}
